@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "*.html": "html"
+  },
+  "typescript.preferences.includePackageJsonAutoImports": "off",
+  "typescript.suggest.autoImports": false,
+  "typescript.validate.enable": false,
+  "javascript.validate.enable": false
+}

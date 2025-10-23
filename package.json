@@ -1,0 +1,19 @@
+{
+  "name": "fairgo-website",
+  "version": "1.0.0",
+  "description": "FairGo static website built with Framer",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 
+Static
+site
+-
+no
+build
+required",
+    "start": "npx serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

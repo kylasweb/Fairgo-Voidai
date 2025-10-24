@@ -6341,6 +6341,23 @@
 </div>
 <!-- Start of bodyEnd -->
 
+<script>
+                    (function () {
+                      var logoSrc = '/images/fairgo-logo.png';
+                      function replaceLogos() {
+                        document.querySelectorAll('[data-framer-name="logo"], [data-framer-name="Logo"]').forEach(function (el) {
+                          var wrapper = el.querySelector('[data-framer-background-image-wrapper]');
+                          var img = document.createElement('img');
+                          img.src = logoSrc; img.alt = 'FairGo';
+                          img.style.display = 'block'; img.style.width = '100%'; img.style.height = '100%'; img.style.objectFit = 'contain';
+                          if (wrapper) { wrapper.innerHTML = ''; wrapper.appendChild(img); } else { el.innerHTML = ''; el.appendChild(img); }
+                        });
+                        document.querySelectorAll('img[alt="logo"]').forEach(function (i) { i.src = logoSrc; i.removeAttribute('srcset'); i.removeAttribute('data-framer-original-sizes'); });
+                      }
+                      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', replaceLogos); } else { replaceLogos(); }
+                    })();
+</script>
+
 <!-- End of bodyEnd -->
 </body>
 

@@ -6336,20 +6336,18 @@
   <!-- End of bodyEnd -->
   <script>
                     (function () {
-                      const logoSrc = '/images/fairgo-logo.png';
+                      var logoSrc = '/images/fairgo-logo.png';
                       function replaceLogos() {
-                        document.querySelectorAll('[data-framer-name="logo"], [data-framer-name="Logo"]').forEach(el => {
-                          const wrapper = el.querySelector('[data-framer-background-image-wrapper]');
-                          const img = '<img src="' + logoSrc + '" alt="FairGo" style="display:block;width:100%;height:100%;object-fit:contain" decoding="async" />';
-                          if (wrapper) wrapper.innerHTML = img; else el.innerHTML = img;
+                        document.querySelectorAll('[data-framer-name="logo"], [data-framer-name="Logo"]').forEach(function (el) {
+                          var wrapper = el.querySelector('[data-framer-background-image-wrapper]');
+                          var img = document.createElement('img');
+                          img.src = logoSrc; img.alt = 'FairGo';
+                          img.style.display = 'block'; img.style.width = '100%'; img.style.height = '100%'; img.style.objectFit = 'contain';
+                          if (wrapper) { wrapper.innerHTML = ''; wrapper.appendChild(img); } else { el.innerHTML = ''; el.appendChild(img); }
                         });
-                        document.querySelectorAll('img[alt="logo"]').forEach(img => {
-                          img.src = logoSrc;
-                          img.removeAttribute('srcset');
-                          img.removeAttribute('data-framer-original-sizes');
-                        });
+                        document.querySelectorAll('img[alt="logo"]').forEach(function (i) { i.src = logoSrc; i.removeAttribute('srcset'); i.removeAttribute('data-framer-original-sizes'); });
                       }
-                      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', replaceLogos); else replaceLogos();
+                      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', replaceLogos); } else { replaceLogos(); }
                     })();
   </script>
 

@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "outputDirectory": ".",
-  "routes": [
+  "rewrites": [
     {
-      "src": "/framerusercontent.com/(.*)",
-      "dest": "https://framerusercontent.com/$1"
+      "source": "/framerusercontent.com/:path*",
+      "destination": "https://framerusercontent.com/:path*"
     }
   ]
 }

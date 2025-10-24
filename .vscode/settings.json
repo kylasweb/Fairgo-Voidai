@@ -1,4 +1,11 @@
 {
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+  "files.exclude": {
+    "**/fairgo.framer.website": true
+  }
+}
+{
   "files.associations": {
     "*.html": "html"
   },

@@ -32995,6 +32995,24 @@
   <!-- Start of bodyEnd -->
 
   <!-- End of bodyEnd -->
+  <script>
+      (function () {
+        const logoSrc = '/images/fairgo-logo.svg';
+        function replaceLogos() {
+          document.querySelectorAll('[data-framer-name="logo"], [data-framer-name="Logo"]').forEach(el => {
+            const wrapper = el.querySelector('[data-framer-background-image-wrapper]');
+            const img = '<img src="' + logoSrc + '" alt="FairGo" style="display:block;width:100%;height:100%;object-fit:contain" decoding="async" />';
+            if (wrapper) wrapper.innerHTML = img; else el.innerHTML = img;
+          });
+          document.querySelectorAll('img[alt="logo"]').forEach(img => {
+            img.src = logoSrc;
+            img.removeAttribute('srcset');
+            img.removeAttribute('data-framer-original-sizes');
+          });
+        }
+        if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', replaceLogos); else replaceLogos();
+      })();
+  </script>
 </body>
 
 <!-- Mirrored from FAIRGO.framer.website/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Oct 2025 10:16:17 GMT -->

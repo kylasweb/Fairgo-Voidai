@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="titleDesc">
+  <title id="titleDesc">FAIRGO logo</title>
+  <defs>
+    <style>
+      .text { font-family: Inter, Arial, Helvetica, sans-serif; font-weight: 700; fill: #ffffff; }
+      .tag { font-family: Inter, Arial, Helvetica, sans-serif; font-weight: 400; fill: #ffffff; font-size: 48px }
+    </style>
+  </defs>
+  <rect width="100%" height="100%" fill="transparent"/>
+  <!-- Wordmark: FAIRGO with a simple road shape in the A -->
+  <g transform="translate(60,110)">
+    <text x="0" y="120" font-size="120" class="text">F</text>
+    <g transform="translate(80,0)">
+      <text x="0" y="120" font-size="120" class="text">A</text>
+      <!-- simple road inside the A -->
+      <path d="M40 35 L60 85 L80 35" fill="#ffffff" opacity="0.95" transform="translate(12,10) scale(0.6)"/>
+      <rect x="68" y="62" width="6" height="12" fill="#000" opacity="0.6" transform="translate(12,10) scale(0.6)"/>
+    </g>
+    <text x="220" y="120" font-size="120" class="text">IRGO</text>
+    <text x="0" y="200" font-size="40" class="tag">everywhere you go</text>
+  </g>
+</svg>

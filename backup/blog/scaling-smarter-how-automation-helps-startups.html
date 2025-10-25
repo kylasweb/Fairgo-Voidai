@@ -2,72 +2,15 @@
 <!-- ✨ Built with Framer • https://www.framer.com/ -->
 <html lang="en">
 
-<!-- Mirrored from FAIRGO.framer.website/privacy by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Oct 2025 10:16:48 GMT -->
+<!-- Mirrored from FAIRGO.framer.website/blog/scaling-smarter-how-automation-helps-startups by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Oct 2025 10:16:49 GMT -->
 
 <head>
   <meta charset="utf-8">
 
 
   <script>try { if (localStorage.get("__framer_force_showing_editorbar_since")) { const n = document.createElement("link"); n.rel = "modulepreload"; n.href = "https://framer.com/edit/init.mjs"; document.head.appendChild(n) } } catch (e) { }</script>
-  <script>
-    window.addEventListener('load', function () {
-      function replaceText(element) {
-        if (element.nodeType === Node.TEXT_NODE) {
-          element.textContent = element.textContent.replace(/VOIDAI/g, 'FAIRGO');
-        } else {
-          for (let child of element.childNodes) {
-            replaceText(child);
-          }
-        }
-      }
-      replaceText(document.body);
-      document.querySelectorAll('[href], [src], [content]').forEach(el => {
-        ['href', 'src', 'content'].forEach(attr => {
-          if (el.hasAttribute(attr)) {
-            el.setAttribute(attr, el.getAttribute(attr).replace(/voidai/g, 'fairgo'));
-          }
-        });
-      });
-
-      // Handle SVG text elements
-      document.querySelectorAll('text').forEach(textEl => {
-        textEl.textContent = textEl.textContent.replace(/VOIDAI/g, 'FAIRGO');
-      });
-
-      // Monitor for dynamically added content
-      const observer = new MutationObserver(function (mutations) {
-        mutations.forEach(function (mutation) {
-          mutation.addedNodes.forEach(function (node) {
-            if (node.nodeType === Node.ELEMENT_NODE) {
-              // Replace text in new elements
-              replaceText(node);
-
-              // Handle attributes in new elements
-              if (node.hasAttribute && (node.hasAttribute('href') || node.hasAttribute('src') || node.hasAttribute('content'))) {
-                ['href', 'src', 'content'].forEach(attr => {
-                  if (node.hasAttribute(attr)) {
-                    node.setAttribute(attr, node.getAttribute(attr).replace(/voidai/g, 'fairgo'));
-                  }
-                });
-              }
-
-              // Handle SVG text in new elements
-              node.querySelectorAll && node.querySelectorAll('text').forEach(textEl => {
-                textEl.textContent = textEl.textContent.replace(/VOIDAI/g, 'FAIRGO');
-              });
-            }
-          });
-        });
-      });
-
-      // Start observing
-      observer.observe(document.body, {
-        childList: true,
-        subtree: true
-      });
-    });
-  </script>
-
+  <script>      window.addEventListener('load', function () {
+      function replaceText(element) { if (element.nodeType === Node.TEXT_NODE) { element.textContent = element.textContent.replace(/VOIDAI/g, 'FAIRGO'); } else { for (let child of element.childNodes) { replaceText(child); } } } replaceText(document.body); document.querySelectorAll('[href], [src], [content]').forEach(el => { ['href', 'src', 'content'].forEach(attr => { if (el.hasAttribute(attr)) { el.setAttribute(attr, el.getAttribute(attr).replace(/voidai/g, 'fairgo')); } }); });        // Handle SVG text elements        document.querySelectorAll('text').forEach(textEl => {          textEl.textContent = textEl.textContent.replace(/VOIDAI/g, 'FAIRGO');        });        // Monitor for dynamically added content        const observer = new MutationObserver(function(mutations) {          mutations.forEach(function(mutation) {            mutation.addedNodes.forEach(function(node) {              if (node.nodeType === Node.ELEMENT_NODE) {                // Replace text in new elements                replaceText(node);                // Handle attributes in new elements                if (node.hasAttribute && (node.hasAttribute('href') || node.hasAttribute('src') || node.hasAttribute('content'))) {                  ['href', 'src', 'content'].forEach(attr => {                    if (node.hasAttribute(attr)) {                      node.setAttribute(attr, node.getAttribute(attr).replace(/voidai/g, 'fairgo'));                    }                  });                }                // Handle SVG text in new elements                node.querySelectorAll && node.querySelectorAll('text').forEach(textEl => {                  textEl.textContent = textEl.textContent.replace(/VOIDAI/g, 'FAIRGO');                });              }            });          });        });        // Start observing        observer.observe(document.body, {          childList: true,          subtree: true        });      });    </script>
   <!-- Start of headStart -->
 
   <!-- End of headStart -->
@@ -78,9 +21,9 @@
     content="FAIRGO is a premium Framer template built to elevate your AI automation agency. Designed with a sleek, modern aesthetic.">
   <!-- framer search index meta tags removed (site does not use Framer hosted search) -->
   <meta name="framer-html-plugin" content="disable">
-  <link href="../framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo.png" rel="icon"
+  <link href="../../framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo.png" rel="icon"
     media="(prefers-color-scheme: light)">
-  <link href="../framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo.png" rel="icon"
+  <link href="../../framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo.png" rel="icon"
     media="(prefers-color-scheme: dark)">
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
@@ -94,13 +37,6 @@
   <meta name="twitter:description"
     content="FAIRGO is a premium Framer template built to elevate your AI automation agency. Designed with a sleek, modern aesthetic.">
   <meta name="twitter:image" content="https://framerusercontent.com/images/viudqeCqJrWIpO5l4ssopq12ICU.png">
-
-  <!-- Hide Framer 'Get Template' promotional component inserted by exported JS -->
-  <style>
-    .framer-5grv2t-container {
-      display: none !important;
-    }
-  </style>
 
   <style data-framer-font-css>
     /* cyrillic */
@@ -1063,23 +999,23 @@
   </style>
   <link href="https://fonts.gstatic.com/" rel="preconnect" crossorigin>
   <meta name="robots" content="max-image-preview:large">
-  <link rel="canonical" href="privacy.html">
-  <meta property="og:url" content="https://FAIRGO.framer.website/privacy">
+  <link rel="canonical" href="scaling-smarter-how-automation-helps-startups.html">
+  <meta property="og:url" content="https://FAIRGO.framer.website/blog/scaling-smarter-how-automation-helps-startups">
   <style data-framer-breakpoint-css>
     @media(min-width: 1200px) {
-      .hidden-1ond1c2 {
+      .hidden-crarop {
         display: none !important
       }
     }
 
     @media(min-width: 810px) and (max-width: 1199.98px) {
-      .hidden-qxoahw {
+      .hidden-cj397y {
         display: none !important
       }
     }
 
     @media(max-width: 809.98px) {
-      .hidden-1njrwkf {
+      .hidden-12psxxm {
         display: none !important
       }
     }
@@ -1103,7 +1039,7 @@
     }
   </style>
   <style data-framer-css-ssr-minified
-    data-framer-components="framer-lib-cursors-host framer-zFntg PropertyOverrides framer-1H5Cc framer-uXShj framer-0ZBvG framer-k3vEy framer-w0l2M framer-k9Th4 framer-fBboV framer-F8pte framer-ytDrs framer-UQ47y framer-o2b1i framer-CpFJO">
+    data-framer-components="framer-lib-cursors-host framer-zFntg PropertyOverrides framer-1H5Cc framer-uXShj framer-0ZBvG framer-k3vEy framer-w0l2M framer-k9Th4 framer-fBboV framer-2Ts2h framer-ytDrs framer-UQ47y framer-o2b1i framer-CpFJO framer-AgZsX">
     html,
     body,
     #main {
@@ -2986,26 +2922,26 @@
       }
     }
 
-    .framer-F8pte.framer-1xqunbs,
-    .framer-F8pte .framer-1xqunbs {
+    .framer-2Ts2h.framer-jp1asj,
+    .framer-2Ts2h .framer-jp1asj {
       display: block
     }
 
-    .framer-F8pte.framer-1ond1c2 {
+    .framer-2Ts2h.framer-crarop {
       background-color: var(--token-98508381-6582-4601-91b5-f46d5a54e333, #01010d);
       flex-flow: column;
       place-content: center flex-start;
       align-items: center;
       gap: 0;
       width: 1200px;
-      height: 1080px;
+      height: min-content;
       padding: 0;
       display: flex;
       position: relative;
       overflow: hidden
     }
 
-    .framer-F8pte .framer-fhqom0 {
+    .framer-2Ts2h .framer-3nuxq8 {
       flex-flow: row;
       flex: none;
       place-content: center;
@@ -3013,136 +2949,169 @@
       gap: 10px;
       width: 100%;
       height: min-content;
-      padding: 200px 40px 100px;
+      padding: 160px 40px 100px;
       display: flex;
       position: relative;
-      overflow: hidden
+      overflow: visible
     }
 
-    .framer-F8pte .framer-3qipzv {
+    .framer-2Ts2h .framer-lwa5ju {
       flex-flow: column;
       flex: 1 0 0;
       place-content: center flex-start;
       align-items: center;
-      gap: 16px;
+      gap: 54px;
       width: 1px;
-      max-width: 1000px;
+      max-width: 1100px;
       height: min-content;
       padding: 0;
       display: flex;
+      position: relative;
+      overflow: visible
+    }
+
+    .framer-2Ts2h .framer-k09f8u {
+      flex-flow: column;
+      flex: none;
+      place-content: flex-start;
+      align-items: flex-start;
+      gap: 16px;
+      width: 100%;
+      height: min-content;
+      padding: 0 100px;
+      display: flex;
+      position: relative;
+      overflow: visible
+    }
+
+    .framer-2Ts2h .framer-rdnuyt-container {
+      flex: none;
+      width: auto;
+      height: auto;
       position: relative
     }
 
-    .framer-F8pte .framer-lkrcv1,
-    .framer-F8pte .framer-82t1k6 {
+    .framer-2Ts2h .framer-1fvbm3l {
       flex-flow: column;
       flex: none;
       place-content: center;
       align-items: center;
-      gap: 24px;
+      gap: 16px;
+      width: 100%;
+      max-width: 800px;
+      height: min-content;
+      padding: 0;
+      display: flex;
+      position: relative;
+      overflow: visible
+    }
+
+    .framer-2Ts2h .framer-1f9dmyb {
+      flex-flow: row;
+      flex: none;
+      place-content: center flex-start;
+      align-items: center;
+      gap: 20px;
+      width: 100%;
+      height: min-content;
+      padding: 14px 0 0;
+      display: flex;
+      position: relative;
+      overflow: visible
+    }
+
+    .framer-2Ts2h .framer-1flkifq,
+    .framer-2Ts2h .framer-1tos3zg {
+      --framer-link-text-color: #09f;
+      --framer-link-text-decoration: underline;
+      opacity: .7;
+      white-space: pre;
+      flex: none;
+      width: auto;
+      height: auto;
+      position: relative
+    }
+
+    .framer-2Ts2h .framer-zutmv {
+      flex-flow: column;
+      flex: none;
+      place-content: center flex-start;
+      align-items: center;
+      gap: 12px;
       width: 100%;
       height: min-content;
       padding: 0;
       display: flex;
       position: relative;
-      overflow: hidden
+      overflow: visible
     }
 
-    .framer-F8pte .framer-1qmltkf {
+    .framer-2Ts2h .framer-1ir4v16 {
+      --framer-link-text-color: #09f;
+      --framer-link-text-decoration: underline;
       white-space: pre-wrap;
       word-break: break-word;
       word-wrap: break-word;
       flex: none;
       width: 100%;
       height: auto;
-      position: relative
-    }
-
-    .framer-F8pte .framer-sgpng7,
-    .framer-F8pte .framer-1p61079 {
-      opacity: .8;
-      white-space: pre-wrap;
-      word-break: break-word;
-      word-wrap: break-word;
-      flex: none;
-      width: 100%;
-      height: auto;
-      position: relative
-    }
-
-    .framer-F8pte .framer-1m3sh0j,
-    .framer-F8pte .framer-1xg91r6,
-    .framer-F8pte .framer-czuaaf,
-    .framer-F8pte .framer-5fzbnf,
-    .framer-F8pte .framer-vzwxzo,
-    .framer-F8pte .framer-1lq6wqk,
-    .framer-F8pte .framer-zk2rf0,
-    .framer-F8pte .framer-1dntcvx,
-    .framer-F8pte .framer-19rwj8p,
-    .framer-F8pte .framer-1rm5b5o {
-      z-index: 1;
-      flex-flow: row;
-      flex: none;
-      place-content: center;
-      align-items: center;
-      gap: 10px;
-      width: 100%;
-      height: 3px;
-      padding: 0;
-      display: flex;
       position: relative;
       overflow: hidden
     }
 
-    .framer-F8pte .framer-1sr5qhp,
-    .framer-F8pte .framer-18pxfev,
-    .framer-F8pte .framer-1hhifv7,
-    .framer-F8pte .framer-1c44rxo,
-    .framer-F8pte .framer-1osvyot,
-    .framer-F8pte .framer-1021gfy,
-    .framer-F8pte .framer-necy2i,
-    .framer-F8pte .framer-r4tkyt,
-    .framer-F8pte .framer-1x56j8j,
-    .framer-F8pte .framer-3wx5ec {
-      background-color: var(--token-35b68d38-6de2-4871-b185-2a179c2ef44b, #181825);
-      flex: 1 0 0;
-      width: 1px;
-      height: 2px;
-      position: relative
-    }
-
-    .framer-F8pte .framer-neyeex {
-      opacity: .8;
+    .framer-2Ts2h .framer-j5e070 {
       white-space: pre-wrap;
       word-break: break-word;
       word-wrap: break-word;
       flex: none;
       width: 100%;
       height: auto;
-      scroll-margin-top: 100px;
-      position: relative
+      position: relative;
+      overflow: visible
     }
 
-    .framer-F8pte .framer-m5ekdk,
-    .framer-F8pte .framer-vzw1dr,
-    .framer-F8pte .framer-1aza2r4,
-    .framer-F8pte .framer-363zov,
-    .framer-F8pte .framer-1plj8yg,
-    .framer-F8pte .framer-h7241s,
-    .framer-F8pte .framer-1v5ua17,
-    .framer-F8pte .framer-lbdjfu {
-      opacity: .8;
+    .framer-2Ts2h .framer-1x7lzgo {
+      flex-flow: column;
+      flex: none;
+      place-content: center flex-start;
+      align-items: center;
+      gap: 44px;
+      width: 100%;
+      height: min-content;
+      padding: 0 100px;
+      display: flex;
+      position: relative;
+      overflow: visible
+    }
+
+    .framer-2Ts2h .framer-1re6uri {
+      --border-bottom-width: 1px;
+      --border-color: var(--token-0ba2fa13-58de-4133-822d-0a8822707ca7, #ffffff12);
+      --border-left-width: 1px;
+      --border-right-width: 1px;
+      --border-style: solid;
+      --border-top-width: 1px;
+      aspect-ratio: 1.83673;
+      height: var(--framer-aspect-ratio-supported, 490px);
+      border-radius: 8px;
+      flex: none;
+      width: 100%;
+      position: relative;
+      overflow: visible
+    }
+
+    .framer-2Ts2h .framer-1r5pnmb {
       white-space: pre-wrap;
       word-break: break-word;
       word-wrap: break-word;
       flex: none;
       width: 100%;
       height: auto;
-      scroll-margin-top: 140px;
-      position: relative
+      position: relative;
+      overflow: hidden
     }
 
-    .framer-F8pte .framer-1btqfcv-container {
+    .framer-2Ts2h .framer-1p6ua28-container {
       pointer-events: none;
       z-index: 10;
       flex: none;
@@ -3151,6 +3120,68 @@
       bottom: 0;
       left: 0;
       right: 0
+    }
+
+    @media (max-width:1279px) and (min-width:810px) {
+
+      .framer-RufVw .framer-styles-preset-1kvyxmc:not(.rich-text-wrapper),
+      .framer-RufVw .framer-styles-preset-1kvyxmc.rich-text-wrapper p {
+        --framer-font-family: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-family-bold: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-family-bold-italic: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-family-italic: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-open-type-features: normal;
+        --framer-font-size: 16px;
+        --framer-font-style: normal;
+        --framer-font-style-bold: normal;
+        --framer-font-style-bold-italic: italic;
+        --framer-font-style-italic: italic;
+        --framer-font-variation-axes: normal;
+        --framer-font-weight: 400;
+        --framer-font-weight-bold: 700;
+        --framer-font-weight-bold-italic: 700;
+        --framer-font-weight-italic: 400;
+        --framer-letter-spacing: .01em;
+        --framer-line-height: 1.6em;
+        --framer-paragraph-spacing: 20px;
+        --framer-text-alignment: left;
+        --framer-text-color: var(--token-c973949c-743a-4edd-981a-47999a6ea585, #f0f0ff);
+        --framer-text-decoration: none;
+        --framer-text-stroke-color: initial;
+        --framer-text-stroke-width: initial;
+        --framer-text-transform: none
+      }
+    }
+
+    @media (max-width:809px) and (min-width:0) {
+
+      .framer-RufVw .framer-styles-preset-1kvyxmc:not(.rich-text-wrapper),
+      .framer-RufVw .framer-styles-preset-1kvyxmc.rich-text-wrapper p {
+        --framer-font-family: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-family-bold: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-family-bold-italic: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-family-italic: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-open-type-features: normal;
+        --framer-font-size: 14px;
+        --framer-font-style: normal;
+        --framer-font-style-bold: normal;
+        --framer-font-style-bold-italic: italic;
+        --framer-font-style-italic: italic;
+        --framer-font-variation-axes: normal;
+        --framer-font-weight: 400;
+        --framer-font-weight-bold: 700;
+        --framer-font-weight-bold-italic: 700;
+        --framer-font-weight-italic: 400;
+        --framer-letter-spacing: -.02em;
+        --framer-line-height: 1.6em;
+        --framer-paragraph-spacing: 20px;
+        --framer-text-alignment: left;
+        --framer-text-color: var(--token-c973949c-743a-4edd-981a-47999a6ea585, #f0f0ff);
+        --framer-text-decoration: none;
+        --framer-text-stroke-color: initial;
+        --framer-text-stroke-width: initial;
+        --framer-text-transform: none
+      }
     }
 
     .framer-hsUEb .framer-styles-preset-6t8r1r:not(.rich-text-wrapper),
@@ -3243,14 +3274,76 @@
       }
     }
 
-    .framer-jbuwJ .framer-styles-preset-x10t4m:not(.rich-text-wrapper),
-    .framer-jbuwJ .framer-styles-preset-x10t4m.rich-text-wrapper h4 {
+    @media (max-width:1199px) and (min-width:810px) {
+
+      .framer-IkI6q .framer-styles-preset-19ljcrl:not(.rich-text-wrapper),
+      .framer-IkI6q .framer-styles-preset-19ljcrl.rich-text-wrapper h1 {
+        --framer-font-family: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-family-bold: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-family-bold-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-family-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-open-type-features: normal;
+        --framer-font-size: 96px;
+        --framer-font-style: normal;
+        --framer-font-style-bold: normal;
+        --framer-font-style-bold-italic: italic;
+        --framer-font-style-italic: italic;
+        --framer-font-variation-axes: normal;
+        --framer-font-weight: 400;
+        --framer-font-weight-bold: 700;
+        --framer-font-weight-bold-italic: 700;
+        --framer-font-weight-italic: 400;
+        --framer-letter-spacing: -.06em;
+        --framer-line-height: 120%;
+        --framer-paragraph-spacing: 0px;
+        --framer-text-alignment: center;
+        --framer-text-color: var(--token-c973949c-743a-4edd-981a-47999a6ea585, #f0f0ff);
+        --framer-text-decoration: none;
+        --framer-text-stroke-color: initial;
+        --framer-text-stroke-width: initial;
+        --framer-text-transform: none
+      }
+    }
+
+    @media (max-width:809px) and (min-width:0) {
+
+      .framer-IkI6q .framer-styles-preset-19ljcrl:not(.rich-text-wrapper),
+      .framer-IkI6q .framer-styles-preset-19ljcrl.rich-text-wrapper h1 {
+        --framer-font-family: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-family-bold: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-family-bold-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-family-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-open-type-features: normal;
+        --framer-font-size: 64px;
+        --framer-font-style: normal;
+        --framer-font-style-bold: normal;
+        --framer-font-style-bold-italic: italic;
+        --framer-font-style-italic: italic;
+        --framer-font-variation-axes: normal;
+        --framer-font-weight: 400;
+        --framer-font-weight-bold: 700;
+        --framer-font-weight-bold-italic: 700;
+        --framer-font-weight-italic: 400;
+        --framer-letter-spacing: -.03em;
+        --framer-line-height: 1.1em;
+        --framer-paragraph-spacing: 0px;
+        --framer-text-alignment: center;
+        --framer-text-color: var(--token-c973949c-743a-4edd-981a-47999a6ea585, #f0f0ff);
+        --framer-text-decoration: none;
+        --framer-text-stroke-color: initial;
+        --framer-text-stroke-width: initial;
+        --framer-text-transform: none
+      }
+    }
+
+    .framer-NNKys .framer-styles-preset-1y9oj5s:not(.rich-text-wrapper),
+    .framer-NNKys .framer-styles-preset-1y9oj5s.rich-text-wrapper h3 {
       --framer-font-family: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
       --framer-font-family-bold: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
       --framer-font-family-bold-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
       --framer-font-family-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
       --framer-font-open-type-features: normal;
-      --framer-font-size: 20px;
+      --framer-font-size: 28px;
       --framer-font-style: normal;
       --framer-font-style-bold: normal;
       --framer-font-style-bold-italic: italic;
@@ -3260,10 +3353,10 @@
       --framer-font-weight-bold: 700;
       --framer-font-weight-bold-italic: 700;
       --framer-font-weight-italic: 400;
-      --framer-letter-spacing: 0em;
-      --framer-line-height: 1.7em;
+      --framer-letter-spacing: -.04em;
+      --framer-line-height: 140%;
       --framer-paragraph-spacing: 40px;
-      --framer-text-alignment: center;
+      --framer-text-alignment: start;
       --framer-text-color: var(--token-c973949c-743a-4edd-981a-47999a6ea585, #f0f0ff);
       --framer-text-decoration: none;
       --framer-text-stroke-color: initial;
@@ -3273,8 +3366,39 @@
 
     @media (max-width:1199px) and (min-width:810px) {
 
-      .framer-jbuwJ .framer-styles-preset-x10t4m:not(.rich-text-wrapper),
-      .framer-jbuwJ .framer-styles-preset-x10t4m.rich-text-wrapper h4 {
+      .framer-NNKys .framer-styles-preset-1y9oj5s:not(.rich-text-wrapper),
+      .framer-NNKys .framer-styles-preset-1y9oj5s.rich-text-wrapper h3 {
+        --framer-font-family: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-family-bold: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-family-bold-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-family-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-open-type-features: normal;
+        --framer-font-size: 22px;
+        --framer-font-style: normal;
+        --framer-font-style-bold: normal;
+        --framer-font-style-bold-italic: italic;
+        --framer-font-style-italic: italic;
+        --framer-font-variation-axes: normal;
+        --framer-font-weight: 400;
+        --framer-font-weight-bold: 700;
+        --framer-font-weight-bold-italic: 700;
+        --framer-font-weight-italic: 400;
+        --framer-letter-spacing: -.04em;
+        --framer-line-height: 140%;
+        --framer-paragraph-spacing: 40px;
+        --framer-text-alignment: start;
+        --framer-text-color: var(--token-c973949c-743a-4edd-981a-47999a6ea585, #f0f0ff);
+        --framer-text-decoration: none;
+        --framer-text-stroke-color: initial;
+        --framer-text-stroke-width: initial;
+        --framer-text-transform: none
+      }
+    }
+
+    @media (max-width:809px) and (min-width:0) {
+
+      .framer-NNKys .framer-styles-preset-1y9oj5s:not(.rich-text-wrapper),
+      .framer-NNKys .framer-styles-preset-1y9oj5s.rich-text-wrapper h3 {
         --framer-font-family: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
         --framer-font-family-bold: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
         --framer-font-family-bold-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
@@ -3290,11 +3414,70 @@
         --framer-font-weight-bold: 700;
         --framer-font-weight-bold-italic: 700;
         --framer-font-weight-italic: 400;
-        --framer-letter-spacing: 0em;
-        --framer-line-height: 1.7em;
+        --framer-letter-spacing: -.04em;
+        --framer-line-height: 140%;
         --framer-paragraph-spacing: 40px;
-        --framer-text-alignment: center;
+        --framer-text-alignment: start;
         --framer-text-color: var(--token-c973949c-743a-4edd-981a-47999a6ea585, #f0f0ff);
+        --framer-text-decoration: none;
+        --framer-text-stroke-color: initial;
+        --framer-text-stroke-width: initial;
+        --framer-text-transform: none
+      }
+    }
+
+    .framer-IDc4t .framer-styles-preset-nol11v:not(.rich-text-wrapper),
+    .framer-IDc4t .framer-styles-preset-nol11v.rich-text-wrapper h4 {
+      --framer-font-family: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+      --framer-font-family-bold: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+      --framer-font-family-bold-italic: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+      --framer-font-family-italic: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+      --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+      --framer-font-size: 22px;
+      --framer-font-style: normal;
+      --framer-font-style-bold: normal;
+      --framer-font-style-bold-italic: italic;
+      --framer-font-style-italic: italic;
+      --framer-font-variation-axes: normal;
+      --framer-font-weight: 500;
+      --framer-font-weight-bold: 700;
+      --framer-font-weight-bold-italic: 700;
+      --framer-font-weight-italic: 500;
+      --framer-letter-spacing: -.01em;
+      --framer-line-height: 1.6em;
+      --framer-paragraph-spacing: 40px;
+      --framer-text-alignment: start;
+      --framer-text-color: #fff;
+      --framer-text-decoration: none;
+      --framer-text-stroke-color: initial;
+      --framer-text-stroke-width: initial;
+      --framer-text-transform: none
+    }
+
+    @media (max-width:1199px) and (min-width:810px) {
+
+      .framer-IDc4t .framer-styles-preset-nol11v:not(.rich-text-wrapper),
+      .framer-IDc4t .framer-styles-preset-nol11v.rich-text-wrapper h4 {
+        --framer-font-family: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-family-bold: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-family-bold-italic: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-family-italic: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+        --framer-font-size: 18px;
+        --framer-font-style: normal;
+        --framer-font-style-bold: normal;
+        --framer-font-style-bold-italic: italic;
+        --framer-font-style-italic: italic;
+        --framer-font-variation-axes: normal;
+        --framer-font-weight: 500;
+        --framer-font-weight-bold: 700;
+        --framer-font-weight-bold-italic: 700;
+        --framer-font-weight-italic: 500;
+        --framer-letter-spacing: -.01em;
+        --framer-line-height: 1.6em;
+        --framer-paragraph-spacing: 40px;
+        --framer-text-alignment: start;
+        --framer-text-color: #fff;
         --framer-text-decoration: none;
         --framer-text-stroke-color: initial;
         --framer-text-stroke-width: initial;
@@ -3304,28 +3487,28 @@
 
     @media (max-width:809px) and (min-width:0) {
 
-      .framer-jbuwJ .framer-styles-preset-x10t4m:not(.rich-text-wrapper),
-      .framer-jbuwJ .framer-styles-preset-x10t4m.rich-text-wrapper h4 {
-        --framer-font-family: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
-        --framer-font-family-bold: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
-        --framer-font-family-bold-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
-        --framer-font-family-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
-        --framer-font-open-type-features: normal;
+      .framer-IDc4t .framer-styles-preset-nol11v:not(.rich-text-wrapper),
+      .framer-IDc4t .framer-styles-preset-nol11v.rich-text-wrapper h4 {
+        --framer-font-family: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-family-bold: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-family-bold-italic: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-family-italic: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+        --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
         --framer-font-size: 18px;
         --framer-font-style: normal;
         --framer-font-style-bold: normal;
         --framer-font-style-bold-italic: italic;
         --framer-font-style-italic: italic;
         --framer-font-variation-axes: normal;
-        --framer-font-weight: 400;
+        --framer-font-weight: 500;
         --framer-font-weight-bold: 700;
         --framer-font-weight-bold-italic: 700;
-        --framer-font-weight-italic: 400;
-        --framer-letter-spacing: 0em;
-        --framer-line-height: 1.7em;
+        --framer-font-weight-italic: 500;
+        --framer-letter-spacing: -.01em;
+        --framer-line-height: 1.6em;
         --framer-paragraph-spacing: 40px;
-        --framer-text-alignment: center;
-        --framer-text-color: var(--token-c973949c-743a-4edd-981a-47999a6ea585, #f0f0ff);
+        --framer-text-alignment: start;
+        --framer-text-color: #fff;
         --framer-text-decoration: none;
         --framer-text-stroke-color: initial;
         --framer-text-stroke-width: initial;
@@ -3333,10 +3516,128 @@
       }
     }
 
-    @media (max-width:1279px) and (min-width:810px) {
+    .framer-7ULUB .framer-styles-preset-1fhzng3:not(.rich-text-wrapper),
+    .framer-7ULUB .framer-styles-preset-1fhzng3.rich-text-wrapper h5 {
+      --framer-font-family: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+      --framer-font-family-bold: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+      --framer-font-family-bold-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+      --framer-font-family-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+      --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+      --framer-font-size: 18px;
+      --framer-font-style: normal;
+      --framer-font-style-bold: normal;
+      --framer-font-style-bold-italic: italic;
+      --framer-font-style-italic: italic;
+      --framer-font-variation-axes: normal;
+      --framer-font-weight: 600;
+      --framer-font-weight-bold: 700;
+      --framer-font-weight-bold-italic: 700;
+      --framer-font-weight-italic: 600;
+      --framer-letter-spacing: -.04em;
+      --framer-line-height: 1.4em;
+      --framer-paragraph-spacing: 40px;
+      --framer-text-alignment: start;
+      --framer-text-color: #fff;
+      --framer-text-decoration: none;
+      --framer-text-stroke-color: initial;
+      --framer-text-stroke-width: initial;
+      --framer-text-transform: none
+    }
 
-      .framer-RufVw .framer-styles-preset-1kvyxmc:not(.rich-text-wrapper),
-      .framer-RufVw .framer-styles-preset-1kvyxmc.rich-text-wrapper p {
+    @media (max-width:1199px) and (min-width:810px) {
+
+      .framer-7ULUB .framer-styles-preset-1fhzng3:not(.rich-text-wrapper),
+      .framer-7ULUB .framer-styles-preset-1fhzng3.rich-text-wrapper h5 {
+        --framer-font-family: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-family-bold: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-family-bold-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-family-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+        --framer-font-size: 18px;
+        --framer-font-style: normal;
+        --framer-font-style-bold: normal;
+        --framer-font-style-bold-italic: italic;
+        --framer-font-style-italic: italic;
+        --framer-font-variation-axes: normal;
+        --framer-font-weight: 600;
+        --framer-font-weight-bold: 700;
+        --framer-font-weight-bold-italic: 700;
+        --framer-font-weight-italic: 600;
+        --framer-letter-spacing: -.04em;
+        --framer-line-height: 1.4em;
+        --framer-paragraph-spacing: 40px;
+        --framer-text-alignment: start;
+        --framer-text-color: #fff;
+        --framer-text-decoration: none;
+        --framer-text-stroke-color: initial;
+        --framer-text-stroke-width: initial;
+        --framer-text-transform: none
+      }
+    }
+
+    @media (max-width:809px) and (min-width:0) {
+
+      .framer-7ULUB .framer-styles-preset-1fhzng3:not(.rich-text-wrapper),
+      .framer-7ULUB .framer-styles-preset-1fhzng3.rich-text-wrapper h5 {
+        --framer-font-family: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-family-bold: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-family-bold-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-family-italic: "JetBrains Mono", "JetBrains Mono Placeholder", sans-serif;
+        --framer-font-open-type-features: "blwf" on, "cv09" on, "cv03" on, "cv04" on, "cv11" on;
+        --framer-font-size: 16px;
+        --framer-font-style: normal;
+        --framer-font-style-bold: normal;
+        --framer-font-style-bold-italic: italic;
+        --framer-font-style-italic: italic;
+        --framer-font-variation-axes: normal;
+        --framer-font-weight: 600;
+        --framer-font-weight-bold: 700;
+        --framer-font-weight-bold-italic: 700;
+        --framer-font-weight-italic: 600;
+        --framer-letter-spacing: -.04em;
+        --framer-line-height: 1.4em;
+        --framer-paragraph-spacing: 40px;
+        --framer-text-alignment: start;
+        --framer-text-color: #fff;
+        --framer-text-decoration: none;
+        --framer-text-stroke-color: initial;
+        --framer-text-stroke-width: initial;
+        --framer-text-transform: none
+      }
+    }
+
+    .framer-UmXK6 .framer-styles-preset-12vxr8v:not(.rich-text-wrapper),
+    .framer-UmXK6 .framer-styles-preset-12vxr8v.rich-text-wrapper p {
+      --framer-font-family: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+      --framer-font-family-bold: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+      --framer-font-family-bold-italic: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+      --framer-font-family-italic: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
+      --framer-font-open-type-features: normal;
+      --framer-font-size: 16px;
+      --framer-font-style: normal;
+      --framer-font-style-bold: normal;
+      --framer-font-style-bold-italic: italic;
+      --framer-font-style-italic: italic;
+      --framer-font-variation-axes: normal;
+      --framer-font-weight: 400;
+      --framer-font-weight-bold: 700;
+      --framer-font-weight-bold-italic: 700;
+      --framer-font-weight-italic: 400;
+      --framer-letter-spacing: -.02em;
+      --framer-line-height: 1.6em;
+      --framer-paragraph-spacing: 20px;
+      --framer-text-alignment: left;
+      --framer-text-color: var(--token-3fabd695-4fc0-4550-ba0a-fd75b6e19854, #f0f0ffbf);
+      --framer-text-decoration: none;
+      --framer-text-stroke-color: initial;
+      --framer-text-stroke-width: initial;
+      --framer-text-transform: none
+    }
+
+    @media (max-width:1199px) and (min-width:810px) {
+
+      .framer-UmXK6 .framer-styles-preset-12vxr8v:not(.rich-text-wrapper),
+      .framer-UmXK6 .framer-styles-preset-12vxr8v.rich-text-wrapper p {
         --framer-font-family: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
         --framer-font-family-bold: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
         --framer-font-family-bold-italic: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
@@ -3352,11 +3653,11 @@
         --framer-font-weight-bold: 700;
         --framer-font-weight-bold-italic: 700;
         --framer-font-weight-italic: 400;
-        --framer-letter-spacing: .01em;
+        --framer-letter-spacing: -.02em;
         --framer-line-height: 1.6em;
         --framer-paragraph-spacing: 20px;
         --framer-text-alignment: left;
-        --framer-text-color: var(--token-c973949c-743a-4edd-981a-47999a6ea585, #f0f0ff);
+        --framer-text-color: var(--token-3fabd695-4fc0-4550-ba0a-fd75b6e19854, #f0f0ffbf);
         --framer-text-decoration: none;
         --framer-text-stroke-color: initial;
         --framer-text-stroke-width: initial;
@@ -3366,8 +3667,8 @@
 
     @media (max-width:809px) and (min-width:0) {
 
-      .framer-RufVw .framer-styles-preset-1kvyxmc:not(.rich-text-wrapper),
-      .framer-RufVw .framer-styles-preset-1kvyxmc.rich-text-wrapper p {
+      .framer-UmXK6 .framer-styles-preset-12vxr8v:not(.rich-text-wrapper),
+      .framer-UmXK6 .framer-styles-preset-12vxr8v.rich-text-wrapper p {
         --framer-font-family: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
         --framer-font-family-bold: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
         --framer-font-family-bold-italic: "IBM Plex Sans", "IBM Plex Sans Placeholder", sans-serif;
@@ -3387,7 +3688,7 @@
         --framer-line-height: 1.6em;
         --framer-paragraph-spacing: 20px;
         --framer-text-alignment: left;
-        --framer-text-color: var(--token-c973949c-743a-4edd-981a-47999a6ea585, #f0f0ff);
+        --framer-text-color: var(--token-3fabd695-4fc0-4550-ba0a-fd75b6e19854, #f0f0ffbf);
         --framer-text-decoration: none;
         --framer-text-stroke-color: initial;
         --framer-text-stroke-width: initial;
@@ -3395,19 +3696,53 @@
       }
     }
 
-    @media (min-width:810px) and (max-width:1199.98px) {
-      .framer-F8pte.framer-1ond1c2 {
-        width: 810px
-      }
+    .framer-2Ts2h[data-border=true]:after,
+    .framer-2Ts2h [data-border=true]:after {
+      content: "";
+      border-width: var(--border-top-width, 0)var(--border-right-width, 0)var(--border-bottom-width, 0)var(--border-left-width, 0);
+      border-color: var(--border-color, none);
+      border-style: var(--border-style, none);
+      box-sizing: border-box;
+      border-radius: inherit;
+      pointer-events: none;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0
     }
 
     @media (max-width:809.98px) {
-      .framer-F8pte.framer-1ond1c2 {
+      .framer-2Ts2h.framer-crarop {
         width: 390px
       }
 
-      .framer-F8pte .framer-fhqom0 {
-        padding: 160px 20px 100px
+      .framer-2Ts2h .framer-3nuxq8 {
+        padding: 120px 18px 80px
+      }
+
+      .framer-2Ts2h .framer-k09f8u,
+      .framer-2Ts2h .framer-1x7lzgo {
+        padding: 0
+      }
+
+      .framer-2Ts2h .framer-zutmv {
+        align-content: flex-start;
+        align-items: flex-start
+      }
+
+      .framer-2Ts2h .framer-1re6uri {
+        height: var(--framer-aspect-ratio-supported, 109px)
+      }
+    }
+
+    @media (min-width:810px) and (max-width:1199.98px) {
+      .framer-2Ts2h.framer-crarop {
+        width: 810px
+      }
+
+      .framer-2Ts2h .framer-1re6uri {
+        height: var(--framer-aspect-ratio-supported, 289px)
       }
     }
 
@@ -4379,7 +4714,8 @@
       left: 0
     }
 
-    .framer-CpFJO {
+    .framer-CpFJO,
+    .framer-AgZsX {
       -webkit-mask: var(--framer-icon-mask);
       aspect-ratio: 1;
       -webkit-mask: var(--framer-icon-mask);
@@ -4393,38 +4729,38 @@
 </head>
 
 <script>
-  (function () {
-    const logoSrc = '/images/fairgo-logo.png';
-    function replaceLogos() {
-      document.querySelectorAll('[data-framer-name="logo"], [data-framer-name="Logo"]').forEach(el => {
-        const wrapper = el.querySelector('[data-framer-background-image-wrapper]');
-        const img = '<img src="' + logoSrc + '" alt="FairGo" style="display:block;width:100%;height:100%;object-fit:contain" decoding="async" />';
-        if (wrapper) wrapper.innerHTML = img; else el.innerHTML = img;
-      });
-      document.querySelectorAll('img[alt="logo"]').forEach(img => {
-        img.src = logoSrc;
-        img.removeAttribute('srcset');
-        img.removeAttribute('data-framer-original-sizes');
-      });
-    }
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', replaceLogos); else replaceLogos();
-  })();
+                  (function () {
+                    const logoSrc = '/images/fairgo-logo.png';
+                    function replaceLogos() {
+                      document.querySelectorAll('[data-framer-name="logo"], [data-framer-name="Logo"]').forEach(el => {
+                        const wrapper = el.querySelector('[data-framer-background-image-wrapper]');
+                        const img = '<img src="' + logoSrc + '" alt="FairGo" style="display:block;width:100%;height:100%;object-fit:contain" decoding="async" />';
+                        if (wrapper) wrapper.innerHTML = img; else el.innerHTML = img;
+                      });
+                      document.querySelectorAll('img[alt="logo"]').forEach(img => {
+                        img.src = logoSrc;
+                        img.removeAttribute('srcset');
+                        img.removeAttribute('data-framer-original-sizes');
+                      });
+                    }
+                    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', replaceLogos); else replaceLogos();
+                  })();
 </script>
 
-<!-- Mirrored from FAIRGO.framer.website/privacy by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Oct 2025 10:16:30 GMT -->
+<!-- Mirrored from FAIRGO.framer.website/blog/scaling-smarter-how-automation-helps-startups by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Oct 2025 10:16:50 GMT -->
 
 </html>
 <!-- End of bodyStart -->
 <div id="main"
-  data-framer-hydrate-v2="{&quot;routeId&quot;:&quot;fe3IY8hLH&quot;,&quot;localeId&quot;:&quot;default&quot;,&quot;breakpoints&quot;:[{&quot;hash&quot;:&quot;1ond1c2&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 1200px)&quot;},{&quot;hash&quot;:&quot;qxoahw&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 810px) and (max-width: 1199.98px)&quot;},{&quot;hash&quot;:&quot;1njrwkf&quot;,&quot;mediaQuery&quot;:&quot;(max-width: 809.98px)&quot;},{&quot;hash&quot;:&quot;8lqcsx&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 1200px)&quot;},{&quot;hash&quot;:&quot;sabeit&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 810px) and (max-width: 1199.98px)&quot;},{&quot;hash&quot;:&quot;d7v0xy&quot;,&quot;mediaQuery&quot;:&quot;(max-width: 809.98px)&quot;}]}"
-  data-framer-ssr-released-at="2025-10-10T00:35:35.953Z" data-framer-page-optimized-at="2025-10-13T03:14:01.767Z"
+  data-framer-hydrate-v2="{&quot;routeId&quot;:&quot;drHne6Oxv&quot;,&quot;localeId&quot;:&quot;default&quot;,&quot;pathVariables&quot;:{&quot;iy8UgA4JI&quot;:&quot;scaling-smarter-how-automation-helps-startups&quot;},&quot;breakpoints&quot;:[{&quot;hash&quot;:&quot;crarop&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 1200px)&quot;},{&quot;hash&quot;:&quot;cj397y&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 810px) and (max-width: 1199.98px)&quot;},{&quot;hash&quot;:&quot;12psxxm&quot;,&quot;mediaQuery&quot;:&quot;(max-width: 809.98px)&quot;},{&quot;hash&quot;:&quot;8lqcsx&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 1200px)&quot;},{&quot;hash&quot;:&quot;sabeit&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 810px) and (max-width: 1199.98px)&quot;},{&quot;hash&quot;:&quot;d7v0xy&quot;,&quot;mediaQuery&quot;:&quot;(max-width: 809.98px)&quot;}]}"
+  data-framer-ssr-released-at="2025-10-10T00:35:35.953Z" data-framer-page-optimized-at="2025-10-13T03:14:01.205Z"
   data-framer-generated-page><!--$-->
   <style data-framer-html-style>
     :root body {
       background: var(--token-98508381-6582-4601-91b5-f46d5a54e333, rgb(1, 1, 13));
     }
   </style>
-  <div routeid="fe3IY8hLH" class="framer-zFntg framer-8lqcsx" data-layout-template="true"
+  <div routeid="drHne6Oxv" class="framer-zFntg framer-8lqcsx" data-layout-template="true"
     style="min-height:100vh;width:auto">
     <div class="framer-uhwb70-container">
       <div class="ssr-variant hidden-sabeit hidden-d7v0xy">
@@ -4435,12 +4771,12 @@
             <div class="framer-l9mbt0" data-framer-name="Logo Wrapper">
               <div class="framer-710vjd-container"><!--$--><a as="a"
                   class="framer-uXShj framer-1ob4o22 framer-v-1ob4o22 framer-ua2ffx" data-framer-name="primary"
-                  data-highlight="true" href="index.html#hero" tabindex="0" style="height:100%;width:100%">
+                  data-highlight="true" href="../index.html#hero" tabindex="0" style="height:100%;width:100%">
                   <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0"
                     data-framer-background-image-wrapper="true"><img decoding="async" width="8906" height="2390"
                       sizes="(min-width: 1200px) 140px, (min-width: 810px) and (max-width: 1199.98px) 140px, (max-width: 809.98px) 140px"
                       srcset="https://framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxY.png?scale-down-to=512&amp;width=8906&amp;height=2390 512w,https://framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxY.png?scale-down-to=1024&amp;width=8906&amp;height=2390 1024w,https://framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxY.png?scale-down-to=2048&amp;width=8906&amp;height=2390 2048w,https://framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxY.png?scale-down-to=4096&amp;width=8906&amp;height=2390 4096w,https://framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxY.png?width=8906&amp;height=2390 8906w"
-                      src="../framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxYfa76.png?width=8906&amp;height=2390"
+                      src="../../framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxYfa76.png?width=8906&amp;height=2390"
                       alt
                       style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:contain"
                       data-framer-original-sizes="140px"></div>
@@ -4449,7 +4785,7 @@
             <nav class="framer-rncayg" data-framer-name="nav links"><!--$-->
               <div class="framer-1gqpt6y-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="index.html#services" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../index.html#services" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Services</p>
@@ -4460,7 +4796,7 @@
               </div><!--$-->
               <div class="framer-v0n5px-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="pricing.html#pricing" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../pricing.html#pricing" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Pricing</p>
@@ -4471,7 +4807,7 @@
               </div><!--$-->
               <div class="framer-1mbps08-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="index.html#projects" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../index.html#projects" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Projects</p>
@@ -4482,7 +4818,8 @@
               </div><!--$-->
               <div class="framer-kfr470-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="/" tabindex="0" style="opacity:0.7">
+                  data-framer-name="primary" data-highlight="true" href="../blog.html#blog" tabindex="0"
+                  style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Blog</p>
                   </div>
@@ -4492,7 +4829,7 @@
               </div><!--$-->
               <div class="framer-2fgk0r-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="about.html#about" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../about.html#about" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">About</p>
@@ -4503,7 +4840,7 @@
               </div><!--$-->
               <div class="framer-wk1lp1-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="contact.html#contact" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../contact.html#contact" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Contact</p>
@@ -4514,7 +4851,7 @@
               </div><!--$-->
               <div class="framer-1aodsu3-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="coming-soon.html" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../coming-soon.html" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Coming Soon</p>
@@ -4533,12 +4870,12 @@
             <div class="framer-l9mbt0" data-framer-name="Logo Wrapper">
               <div class="framer-710vjd-container"><!--$--><a as="a"
                   class="framer-uXShj framer-1ob4o22 framer-v-1ob4o22 framer-ua2ffx" data-framer-name="primary"
-                  data-highlight="true" href="index.html#hero" tabindex="0" style="height:100%;width:100%">
+                  data-highlight="true" href="../index.html#hero" tabindex="0" style="height:100%;width:100%">
                   <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0"
                     data-framer-background-image-wrapper="true"><img decoding="async" width="8906" height="2390"
                       sizes="(min-width: 1200px) 140px, (min-width: 810px) and (max-width: 1199.98px) 140px, (max-width: 809.98px) 140px"
                       srcset="https://framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxY.png?scale-down-to=512&amp;width=8906&amp;height=2390 512w,https://framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxY.png?scale-down-to=1024&amp;width=8906&amp;height=2390 1024w,https://framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxY.png?scale-down-to=2048&amp;width=8906&amp;height=2390 2048w,https://framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxY.png?scale-down-to=4096&amp;width=8906&amp;height=2390 4096w,https://framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxY.png?width=8906&amp;height=2390 8906w"
-                      src="../framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxYfa76.png?width=8906&amp;height=2390"
+                      src="../../framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxYfa76.png?width=8906&amp;height=2390"
                       alt
                       style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:contain"
                       data-framer-original-sizes="140px"></div>
@@ -4566,7 +4903,7 @@
             <nav class="framer-rncayg" data-framer-name="nav links"><!--$-->
               <div class="framer-1gqpt6y-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="index.html#services" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../index.html#services" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Services</p>
@@ -4577,7 +4914,7 @@
               </div><!--$-->
               <div class="framer-v0n5px-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="pricing.html#pricing" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../pricing.html#pricing" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Pricing</p>
@@ -4588,7 +4925,7 @@
               </div><!--$-->
               <div class="framer-1mbps08-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="index.html#projects" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../index.html#projects" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Projects</p>
@@ -4599,7 +4936,8 @@
               </div><!--$-->
               <div class="framer-kfr470-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="#" tabindex="0" style="opacity:0.7">
+                  data-framer-name="primary" data-highlight="true" href="../blog.html#blog" tabindex="0"
+                  style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Blog</p>
                   </div>
@@ -4609,7 +4947,7 @@
               </div><!--$-->
               <div class="framer-2fgk0r-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="about.html#about" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../about.html#about" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">About</p>
@@ -4620,7 +4958,7 @@
               </div><!--$-->
               <div class="framer-wk1lp1-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="contact.html#contact" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../contact.html#contact" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Contact</p>
@@ -4631,7 +4969,7 @@
               </div><!--$-->
               <div class="framer-1aodsu3-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="coming-soon.html" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../coming-soon.html" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Coming Soon</p>
@@ -4650,12 +4988,12 @@
             <div class="framer-l9mbt0" data-framer-name="Logo Wrapper">
               <div class="framer-710vjd-container"><!--$--><a as="a"
                   class="framer-uXShj framer-1ob4o22 framer-v-1ob4o22 framer-ua2ffx" data-framer-name="primary"
-                  data-highlight="true" href="index.html#hero" tabindex="0" style="height:100%;width:100%">
+                  data-highlight="true" href="../index.html#hero" tabindex="0" style="height:100%;width:100%">
                   <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0"
                     data-framer-background-image-wrapper="true"><img decoding="async" width="8906" height="2390"
                       sizes="(min-width: 1200px) 140px, (min-width: 810px) and (max-width: 1199.98px) 140px, (max-width: 809.98px) 140px"
                       srcset="https://framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxY.png?scale-down-to=512&amp;width=8906&amp;height=2390 512w,https://framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxY.png?scale-down-to=1024&amp;width=8906&amp;height=2390 1024w,https://framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxY.png?scale-down-to=2048&amp;width=8906&amp;height=2390 2048w,https://framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxY.png?scale-down-to=4096&amp;width=8906&amp;height=2390 4096w,https://framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxY.png?width=8906&amp;height=2390 8906w"
-                      src="../framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxYfa76.png?width=8906&amp;height=2390"
+                      src="../../framerusercontent.com/images/adKo20hxbGFgl7DBHLzqCDcKHxYfa76.png?width=8906&amp;height=2390"
                       alt
                       style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:contain"
                       data-framer-original-sizes="140px"></div>
@@ -4683,7 +5021,7 @@
             <nav class="framer-rncayg" data-framer-name="nav links"><!--$-->
               <div class="framer-1gqpt6y-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="index.html#services" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../index.html#services" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Services</p>
@@ -4694,7 +5032,7 @@
               </div><!--$-->
               <div class="framer-v0n5px-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="pricing.html#pricing" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../pricing.html#pricing" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Pricing</p>
@@ -4705,7 +5043,7 @@
               </div><!--$-->
               <div class="framer-1mbps08-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="index.html#projects" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../index.html#projects" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Projects</p>
@@ -4716,7 +5054,8 @@
               </div><!--$-->
               <div class="framer-kfr470-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="#" tabindex="0" style="opacity:0.7">
+                  data-framer-name="primary" data-highlight="true" href="../blog.html#blog" tabindex="0"
+                  style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Blog</p>
                   </div>
@@ -4726,7 +5065,7 @@
               </div><!--$-->
               <div class="framer-2fgk0r-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="about.html#about" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../about.html#about" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">About</p>
@@ -4737,7 +5076,7 @@
               </div><!--$-->
               <div class="framer-wk1lp1-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="contact.html#contact" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../contact.html#contact" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Contact</p>
@@ -4748,7 +5087,7 @@
               </div><!--$-->
               <div class="framer-1aodsu3-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="coming-soon.html" tabindex="0"
+                  data-framer-name="primary" data-highlight="true" href="../coming-soon.html" tabindex="0"
                   style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Coming Soon</p>
@@ -4765,217 +5104,158 @@
         background: var(--token-98508381-6582-4601-91b5-f46d5a54e333, rgb(1, 1, 13));
       }
     </style>
-    <div data-framer-root class="framer-F8pte framer-hsUEb framer-jbuwJ framer-RufVw framer-gIohD framer-1ond1c2"
+    <div data-framer-root
+      class="framer-2Ts2h framer-RufVw framer-hsUEb framer-IkI6q framer-NNKys framer-IDc4t framer-7ULUB framer-UmXK6 framer-gIohD framer-crarop"
       style="min-height:100vh;width:auto;display:contents">
-      <section class="framer-fhqom0" data-framer-name="privacy policy">
-        <div class="framer-3qipzv" data-framer-name="container">
-          <div class="framer-lkrcv1" data-framer-name="headings">
-            <div class="framer-1qmltkf" data-framer-name="Title" data-framer-component-type="RichTextContainer"
-              style="transform:none">
-              <h1 class="framer-text framer-styles-preset-6t8r1r" data-styles-preset="WVGZMV0ns"
-                style="--framer-text-alignment:left">Privacy Policy</h1>
-            </div>
-            <div class="framer-sgpng7" data-framer-name="Date" data-framer-component-type="RichTextContainer"
-              style="transform:none">
-              <h4 class="framer-text framer-styles-preset-x10t4m" data-styles-preset="F1pyBDiBw"
-                style="--framer-text-alignment:left">Last updated on 16 Martch 2025</h4>
-            </div>
-          </div>
-          <div class="framer-1m3sh0j" data-framer-name="Separator Line">
-            <div data-framer-component-type="SVG" data-framer-name="Separator Line" parentsize="0"
-              _constraints="[object Object]" rotation="0" shadows class="framer-1sr5qhp" aria-hidden="true"
-              style="image-rendering:pixelated;flex-shrink:0;background-size:100% 100%;background-image:url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 1 2&quot;><path d=&quot;M 0.001 0.5 L 1.001 0.5&quot; fill=&quot;transparent&quot; stroke=&quot;rgba(NaN,NaN,NaN,0.3)&quot; stroke-miterlimit=&quot;10&quot; stroke-dasharray=&quot;&quot;></path></svg>')">
-            </div>
-          </div>
-          <div class="framer-1p61079" data-framer-name="content" data-framer-component-type="RichTextContainer"
-            style="transform:none">
-            <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Welcome to FAIRGO. This
-              Privacy Policy is designed to help you understand how we collect, use, disclose, and safeguard your
-              personal information when you use our website and related services.</p>
-            <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><br
-                class="framer-text"><strong class="framer-text">1. Information We Collect</strong></p>
-            <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                class="framer-text">2. How We Use Your Information</strong></p>
-            <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                class="framer-text">3. Sharing Your Information</strong></p>
-            <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                class="framer-text">4. Cookies and Similar Technologies</strong></p>
-            <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                class="framer-text">5. Your Choices</strong></p>
-            <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                class="framer-text">6. Security</strong></p>
-            <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                class="framer-text">7. Children's Privacy</strong></p>
-            <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                class="framer-text">8. Changes to This Privacy Policy</strong></p>
-            <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                class="framer-text">9. Contact Us</strong></p>
-            <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><br
-                class="framer-text trailing-break"></p>
-          </div>
-          <div class="framer-82t1k6" data-framer-name="cotent container">
-            <div class="framer-1xg91r6" data-framer-name="separater line">
-              <div data-framer-component-type="SVG" data-framer-name="Separator Line" parentsize="0"
-                _constraints="[object Object]" rotation="0" shadows class="framer-18pxfev" aria-hidden="true"
-                style="image-rendering:pixelated;flex-shrink:0;background-size:100% 100%;background-image:url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 1 2&quot;><path d=&quot;M 0.001 0.5 L 1.001 0.5&quot; fill=&quot;transparent&quot; stroke=&quot;rgba(NaN,NaN,NaN,0.3)&quot; stroke-miterlimit=&quot;10&quot; stroke-dasharray=&quot;&quot;></path></svg>')">
+      <section class="framer-3nuxq8" data-framer-name="changelog post" id="changelog-post">
+        <div class="framer-lwa5ju" data-framer-name="container">
+          <div class="framer-k09f8u" data-framer-name="Header Stack"><!--$-->
+            <div class="ssr-variant hidden-12psxxm">
+              <div class="framer-rdnuyt-container" style="will-change:transform;opacity:0;transform:translateY(60px)">
+                <!--$--><a class="framer-k3vEy framer-RufVw framer-14hz3dz framer-v-uynd5a framer-1u44o2m"
+                  data-border="true" data-framer-name="Secondary" href="../blog.html" tabindex="0"
+                  style="--border-bottom-width:1px;--border-color:var(--token-2cbe7008-18c0-47fc-bf65-bc3b562c3ea6, rgba(184, 184, 255, 0.4));--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;background:radial-gradient(100% 150% at 50% 50%, var(--token-98508381-6582-4601-91b5-f46d5a54e333, rgb(1, 1, 13)) 0%, var(--token-35b68d38-6de2-4871-b185-2a179c2ef44b, rgb(24, 24, 37)) 100%);box-shadow:inset 0px 0px 12px 0px rgba(105, 105, 150, 0.4)"><svg
+                    class="framer-AgZsX framer-ids2jz" role="presentation" viewBox="0 0 24 24"
+                    style="--1m6trwb:0;--21h8s6:var(--token-c973949c-743a-4edd-981a-47999a6ea585, rgb(240, 240, 255));--pgex8v:1.5;transform:none">
+                    <use href="#872839198" />
+                  </svg>
+                  <div class="framer-1vrjnbm" data-framer-component-type="RichTextContainer"
+                    style="--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                    <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Back To All
+                      Blogs</p>
+                  </div>
+                  <div class="framer-f6xsyo" data-framer-name="decor" style="opacity:0">
+                    <div class="framer-1bkdljd" data-framer-name="line"
+                      style="background-color:var(--token-c973949c-743a-4edd-981a-47999a6ea585, rgb(240, 240, 255))">
+                    </div>
+                    <div class="framer-ggfmhf" data-framer-name="line"
+                      style="background-color:var(--token-c973949c-743a-4edd-981a-47999a6ea585, rgb(240, 240, 255))">
+                    </div>
+                  </div>
+                  <div class="framer-1oifnvs" data-framer-name="decor" style="opacity:0;transform:rotate(-90deg)">
+                    <div class="framer-1alsxuf" data-framer-name="line"
+                      style="background-color:var(--token-c973949c-743a-4edd-981a-47999a6ea585, rgb(240, 240, 255))">
+                    </div>
+                    <div class="framer-1am7a9j" data-framer-name="line"
+                      style="background-color:var(--token-c973949c-743a-4edd-981a-47999a6ea585, rgb(240, 240, 255))">
+                    </div>
+                  </div>
+                  <div class="framer-t8bp2n" data-framer-name="decor" style="opacity:0;transform:rotate(180deg)">
+                    <div class="framer-u2kmo9" data-framer-name="line"
+                      style="background-color:var(--token-c973949c-743a-4edd-981a-47999a6ea585, rgb(240, 240, 255))">
+                    </div>
+                    <div class="framer-84tjnk" data-framer-name="line"
+                      style="background-color:var(--token-c973949c-743a-4edd-981a-47999a6ea585, rgb(240, 240, 255))">
+                    </div>
+                  </div>
+                  <div class="framer-88nmpv" data-framer-name="decor" style="opacity:0;transform:rotate(90deg)">
+                    <div class="framer-frfcdr" data-framer-name="line"
+                      style="background-color:var(--token-c973949c-743a-4edd-981a-47999a6ea585, rgb(240, 240, 255))">
+                    </div>
+                    <div class="framer-133s6ka" data-framer-name="line"
+                      style="background-color:var(--token-c973949c-743a-4edd-981a-47999a6ea585, rgb(240, 240, 255))">
+                    </div>
+                  </div>
+                </a><!--/$-->
               </div>
             </div>
-            <div class="framer-neyeex" data-framer-name="topic 1" id="topic-1"
-              data-framer-component-type="RichTextContainer" style="transform:none">
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                  class="framer-text">1. Information We Collect</strong></p>
-              <ul class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">
-                <li class="framer-text">
-                  <p class="framer-text"><strong class="framer-text">1.1 Personal Information</strong><strong
-                      class="framer-text"><br class="framer-text"><br class="framer-text"></strong>We may collect
-                    personal information, such as your name, email address, and other contact details when you
-                    voluntarily provide it to us, such as when you register for an account, subscribe to newsletters,
-                    or contact us through the website.<br class="framer-text"><br class="framer-text trailing-break">
+            <div class="ssr-variant hidden-crarop hidden-cj397y">
+              <div class="framer-rdnuyt-container" style="will-change:transform;opacity:0;transform:translateY(60px)">
+                <!--$--><a class="framer-k3vEy framer-RufVw framer-14hz3dz framer-v-1fnauid framer-1u44o2m"
+                  data-border="true" data-framer-name="Mobile" href="../blog.html"
+                  style="--border-bottom-width:1px;--border-color:var(--token-2cbe7008-18c0-47fc-bf65-bc3b562c3ea6, rgba(184, 184, 255, 0.4));--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;background:radial-gradient(100% 150% at 50% 50%, var(--token-98508381-6582-4601-91b5-f46d5a54e333, rgb(1, 1, 13)) 0%, var(--token-35b68d38-6de2-4871-b185-2a179c2ef44b, rgb(24, 24, 37)) 100%);box-shadow:inset 0px 0px 12px 0px rgba(105, 105, 150, 0.4)"><svg
+                    class="framer-AgZsX framer-ids2jz" role="presentation" viewBox="0 0 24 24"
+                    style="--1m6trwb:0;--21h8s6:var(--token-c973949c-743a-4edd-981a-47999a6ea585, rgb(240, 240, 255));--pgex8v:1.5;transform:none">
+                    <use href="#872839198" />
+                  </svg>
+                  <div class="framer-1vrjnbm" data-framer-component-type="RichTextContainer"
+                    style="--framer-link-text-color:rgb(0, 153, 255);--framer-link-text-decoration:underline;transform:none">
+                    <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Back To All
+                      Blogs</p>
+                  </div>
+                </a><!--/$-->
+              </div>
+            </div><!--/$-->
+            <div class="framer-1fvbm3l" data-framer-name="text">
+              <div class="framer-1f9dmyb" data-framer-name="top"
+                style="will-change:transform;opacity:0;transform:translateY(60px)">
+                <div class="framer-1flkifq" data-framer-name="Date" data-framer-component-type="RichTextContainer"
+                  style="transform:none">
+                  <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">January 6, 2025
                   </p>
-                </li>
-                <li class="framer-text">
-                  <p class="framer-text"><strong class="framer-text">1.2 Usage Information</strong><strong
-                      class="framer-text"><br class="framer-text"><br class="framer-text"></strong>We may collect
-                    information about your use of the website, including your IP address, browser type, device
-                    information, and pages visited. This information helps us analyze trends, administer the site, and
-                    improve user experience.</p>
-                </li>
-              </ul>
-            </div>
-            <div class="framer-czuaaf" data-framer-name="Separator Line">
-              <div data-framer-component-type="SVG" data-framer-name="Separator Line" parentsize="0"
-                _constraints="[object Object]" rotation="0" shadows class="framer-1hhifv7" aria-hidden="true"
-                style="image-rendering:pixelated;flex-shrink:0;background-size:100% 100%;background-image:url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 1 2&quot;><path d=&quot;M 0.001 0.5 L 1.001 0.5&quot; fill=&quot;transparent&quot; stroke=&quot;rgba(NaN,NaN,NaN,0.3)&quot; stroke-miterlimit=&quot;10&quot; stroke-dasharray=&quot;&quot;></path></svg>')">
+                </div>
+                <div class="framer-1tos3zg" data-framer-name="Date" data-framer-component-type="RichTextContainer"
+                  style="transform:none">
+                  <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Article</p>
+                </div>
+              </div>
+              <div class="framer-zutmv" data-framer-name="bottom"
+                style="will-change:transform;opacity:0;transform:translateY(60px)">
+                <div class="framer-1ir4v16" data-framer-component-type="RichTextContainer" style="transform:none">
+                  <h1 class="framer-text framer-styles-preset-6t8r1r" data-styles-preset="WVGZMV0ns"
+                    style="--framer-text-alignment:left">Scaling Smarter: How Automation Helps</h1>
+                </div>
+                <div class="framer-j5e070" data-framer-component-type="RichTextContainer" style="transform:none">
+                  <p class="framer-text framer-styles-preset-12vxr8v">Learn how fast-growing companies use AI to cut
+                    costs, boost output, and stay lean while scaling operations efficiently.</p>
+                </div>
               </div>
             </div>
-            <div class="framer-m5ekdk" data-framer-name="topic 2" id="topic-2"
-              data-framer-component-type="RichTextContainer" style="transform:none">
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                  class="framer-text">2. How We Use Your Information</strong></p>
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">We use the collected
-                information for various purposes, including:</p>
-              <ul class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">
-                <li class="framer-text">
-                  <p class="framer-text">Providing and maintaining the website</p>
-                </li>
-                <li class="framer-text">
-                  <p class="framer-text">Communicating with you about your account and our services</p>
-                </li>
-                <li class="framer-text">
-                  <p class="framer-text">Sending newsletters, promotional materials, and other information you request
-                  </p>
-                </li>
-                <li class="framer-text">
-                  <p class="framer-text">Analyzing website usage and improving our services</p>
-                </li>
-              </ul>
-            </div>
-            <div class="framer-5fzbnf" data-framer-name="Separator Line">
-              <div data-framer-component-type="SVG" data-framer-name="Separator Line" parentsize="0"
-                _constraints="[object Object]" rotation="0" shadows class="framer-1c44rxo" aria-hidden="true"
-                style="image-rendering:pixelated;flex-shrink:0;background-size:100% 100%;background-image:url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 1 2&quot;><path d=&quot;M 0.001 0.5 L 1.001 0.5&quot; fill=&quot;transparent&quot; stroke=&quot;rgba(NaN,NaN,NaN,0.3)&quot; stroke-miterlimit=&quot;10&quot; stroke-dasharray=&quot;&quot;></path></svg>')">
+          </div>
+          <div class="framer-1x7lzgo" data-framer-name="content"
+            style="will-change:transform;opacity:0;transform:translateY(60px)">
+            <div class="ssr-variant hidden-12psxxm">
+              <div class="framer-1re6uri" data-border="true" data-framer-name="Image">
+                <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0"
+                  data-framer-background-image-wrapper="true"><img decoding="async" width="1200" height="1200"
+                    sizes="(min-width: 1200px) calc(min(max(100vw - 80px, 1px), 1100px) - 200px), (min-width: 810px) and (max-width: 1199.98px) calc(min(max(100vw - 80px, 1px), 1100px) - 200px), (max-width: 809.98px) min(max(100vw - 36px, 1px), 1100px)"
+                    srcset="https://framerusercontent.com/images/ZrhWpggwmoyssWELA1h0hH53Ts.png?scale-down-to=512 512w,https://framerusercontent.com/images/ZrhWpggwmoyssWELA1h0hH53Ts.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/ZrhWpggwmoyssWELA1h0hH53Ts.png 1200w"
+                    src="../../framerusercontent.com/images/ZrhWpggwmoyssWELA1h0hH53Ts.png" alt="widget pic"
+                    style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover"
+                    data-framer-original-sizes="calc(min(max(100vw - 80px, 1px), 1100px) - 200px)"></div>
               </div>
             </div>
-            <div class="framer-vzw1dr" data-framer-name="topic 3" id="topic-3"
-              data-framer-component-type="RichTextContainer" style="transform:none">
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                  class="framer-text">3. Sharing Your Information</strong></p>
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">We do not sell,
-                trade, or otherwise transfer your personal information to third parties without your consent, except
-                as described in this Privacy Policy. We may share information with trusted third-party service
-                providers who assist us in operating our website or conducting our business.</p>
-            </div>
-            <div class="framer-vzwxzo" data-framer-name="Separator Line">
-              <div data-framer-component-type="SVG" data-framer-name="Separator Line" parentsize="0"
-                _constraints="[object Object]" rotation="0" shadows class="framer-1osvyot" aria-hidden="true"
-                style="image-rendering:pixelated;flex-shrink:0;background-size:100% 100%;background-image:url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 1 2&quot;><path d=&quot;M 0.001 0.5 L 1.001 0.5&quot; fill=&quot;transparent&quot; stroke=&quot;rgba(NaN,NaN,NaN,0.3)&quot; stroke-miterlimit=&quot;10&quot; stroke-dasharray=&quot;&quot;></path></svg>')">
+            <div class="ssr-variant hidden-crarop hidden-cj397y">
+              <div class="framer-1re6uri" data-border="true" data-framer-name="Image">
+                <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0"
+                  data-framer-background-image-wrapper="true"><img decoding="async" width="1200" height="1200"
+                    sizes="(min-width: 1200px) calc(min(max(100vw - 80px, 1px), 1100px) - 200px), (min-width: 810px) and (max-width: 1199.98px) calc(min(max(100vw - 80px, 1px), 1100px) - 200px), (max-width: 809.98px) min(max(100vw - 36px, 1px), 1100px)"
+                    srcset="https://framerusercontent.com/images/ZrhWpggwmoyssWELA1h0hH53Ts.png?scale-down-to=512 512w,https://framerusercontent.com/images/ZrhWpggwmoyssWELA1h0hH53Ts.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/ZrhWpggwmoyssWELA1h0hH53Ts.png 1200w"
+                    src="../../framerusercontent.com/images/ZrhWpggwmoyssWELA1h0hH53Ts.png" alt="widget pic"
+                    style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover"
+                    data-framer-original-sizes="min(max(100vw - 36px, 1px), 1100px)"></div>
               </div>
             </div>
-            <div class="framer-1aza2r4" data-framer-name="topic 4" id="topic4"
-              data-framer-component-type="RichTextContainer" style="transform:none">
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                  class="framer-text">4. Cookies and Similar Technologies</strong></p>
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">We use cookies and
-                similar technologies to enhance your experience on our website. You can control cookies through your
-                browser settings, but disabling them may affect your ability to use certain features of the site.</p>
-            </div>
-            <div class="framer-1lq6wqk" data-framer-name="Separator Line">
-              <div data-framer-component-type="SVG" data-framer-name="Separator Line" parentsize="0"
-                _constraints="[object Object]" rotation="0" shadows class="framer-1021gfy" aria-hidden="true"
-                style="image-rendering:pixelated;flex-shrink:0;background-size:100% 100%;background-image:url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 1 2&quot;><path d=&quot;M 0.001 0.5 L 1.001 0.5&quot; fill=&quot;transparent&quot; stroke=&quot;rgba(NaN,NaN,NaN,0.3)&quot; stroke-miterlimit=&quot;10&quot; stroke-dasharray=&quot;&quot;></path></svg>')">
-              </div>
-            </div>
-            <div class="framer-363zov" data-framer-name="topic 5" id="topic-5"
-              data-framer-component-type="RichTextContainer" style="transform:none">
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                  class="framer-text">5. Your Choices</strong></p>
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">You can manage your
-                communication preferences by unsubscribing from newsletters or adjusting your account settings. You
-                may also contact us to update or delete your personal information.</p>
-            </div>
-            <div class="framer-zk2rf0" data-framer-name="Separator Line">
-              <div data-framer-component-type="SVG" data-framer-name="Separator Line" parentsize="0"
-                _constraints="[object Object]" rotation="0" shadows class="framer-necy2i" aria-hidden="true"
-                style="image-rendering:pixelated;flex-shrink:0;background-size:100% 100%;background-image:url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 1 2&quot;><path d=&quot;M 0.001 0.5 L 1.001 0.5&quot; fill=&quot;transparent&quot; stroke=&quot;rgba(NaN,NaN,NaN,0.3)&quot; stroke-miterlimit=&quot;10&quot; stroke-dasharray=&quot;&quot;></path></svg>')">
-              </div>
-            </div>
-            <div class="framer-1plj8yg" data-framer-name="topic 6" id="topic-6"
-              data-framer-component-type="RichTextContainer" style="transform:none">
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                  class="framer-text">6. Security</strong></p>
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">We take reasonable
-                measures to protect the security of your personal information. However, no method of transmission over
-                the internet or electronic storage is completely secure. Therefore, we cannot guarantee absolute
-                security.</p>
-            </div>
-            <div class="framer-1dntcvx" data-framer-name="Separator Line">
-              <div data-framer-component-type="SVG" data-framer-name="Separator Line" parentsize="0"
-                _constraints="[object Object]" rotation="0" shadows class="framer-r4tkyt" aria-hidden="true"
-                style="image-rendering:pixelated;flex-shrink:0;background-size:100% 100%;background-image:url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 1 2&quot;><path d=&quot;M 0.001 0.5 L 1.001 0.5&quot; fill=&quot;transparent&quot; stroke=&quot;rgba(NaN,NaN,NaN,0.3)&quot; stroke-miterlimit=&quot;10&quot; stroke-dasharray=&quot;&quot;></path></svg>')">
-              </div>
-            </div>
-            <div class="framer-h7241s" data-framer-name="topic 7" id="topic-7"
-              data-framer-component-type="RichTextContainer" style="transform:none">
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                  class="framer-text">7. Children's Privacy</strong></p>
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Our website is not
-                directed to individuals under the age of 18. If you become aware that a child has provided us with
-                personal information, please contact us, and we will take steps to remove such information.</p>
-            </div>
-            <div class="framer-19rwj8p" data-framer-name="Separator Line">
-              <div data-framer-component-type="SVG" data-framer-name="Separator Line" parentsize="0"
-                _constraints="[object Object]" rotation="0" shadows class="framer-1x56j8j" aria-hidden="true"
-                style="image-rendering:pixelated;flex-shrink:0;background-size:100% 100%;background-image:url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 1 2&quot;><path d=&quot;M 0.001 0.5 L 1.001 0.5&quot; fill=&quot;transparent&quot; stroke=&quot;rgba(NaN,NaN,NaN,0.3)&quot; stroke-miterlimit=&quot;10&quot; stroke-dasharray=&quot;&quot;></path></svg>')">
-              </div>
-            </div>
-            <div class="framer-1v5ua17" data-framer-name="topic 8" id="topic-8"
-              data-framer-component-type="RichTextContainer" style="transform:none">
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                  class="framer-text">8. Changes to This Privacy Policy</strong></p>
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">We may update this
-                Privacy Policy periodically. We will notify you of any changes by posting the new Privacy Policy on
-                this page. Your continued use of the website after such modifications will constitute your
-                acknowledgment of the modified Privacy Policy.</p>
-            </div>
-            <div class="framer-1rm5b5o" data-framer-name="Separator Line">
-              <div data-framer-component-type="SVG" data-framer-name="Separator Line" parentsize="0"
-                _constraints="[object Object]" rotation="0" shadows class="framer-3wx5ec" aria-hidden="true"
-                style="image-rendering:pixelated;flex-shrink:0;background-size:100% 100%;background-image:url('data:image/svg+xml,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;http://www.w3.org/1999/xlink&quot; viewBox=&quot;0 0 1 2&quot;><path d=&quot;M 0.001 0.5 L 1.001 0.5&quot; fill=&quot;transparent&quot; stroke=&quot;rgba(NaN,NaN,NaN,0.3)&quot; stroke-miterlimit=&quot;10&quot; stroke-dasharray=&quot;&quot;></path></svg>')">
-              </div>
-            </div>
-            <div class="framer-lbdjfu" data-framer-name="topic 9" id="topic-9"
-              data-framer-component-type="RichTextContainer" style="transform:none">
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm"><strong
-                  class="framer-text">9. Contact Us</strong></p>
-              <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">If you have any
-                questions about this Privacy Policy, please contact us at <!--$--><a
-                  class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                  href="mailto:FAIRGO@support.com" target="_blank" rel="noopener">FAIRGO@support.com</a><!--/$--></p>
+            <div class="framer-1r5pnmb" data-framer-component-type="RichTextContainer" style="transform:none">
+              <h3 class="framer-text framer-styles-preset-1y9oj5s">Launching with Lean Resources</h3>
+              <p class="framer-text framer-styles-preset-12vxr8v">Startups often launch with small teams and tight
+                timelines. Automation fills the gap. Instead of hiring for admin, support, or marketing tasks,
+                founders can automate key operations—from onboarding emails to content scheduling—using tools like
+                Zapier, Notion AI, or Framer flows.</p>
+              <h3 class="framer-text framer-styles-preset-1y9oj5s">Staying Focused on the Mission</h3>
+              <p class="framer-text framer-styles-preset-12vxr8v">Automation clears mental overhead. When repetitive
+                tasks are removed from the founder’s plate, it frees up energy to build the product, engage users, and
+                raise capital. It shifts daily effort from reactive to strategic—making momentum sustainable.</p>
+              <h3 class="framer-text framer-styles-preset-1y9oj5s">Systemizing Early Processes</h3>
+              <p class="framer-text framer-styles-preset-12vxr8v">The earlier you document and automate core
+                workflows, the more scalable your business becomes. Whether it's sending contracts, managing feedback,
+                or collecting leads, turning one-off actions into repeatable automations helps you grow without
+                breaking your systems later.</p>
+              <h3 class="framer-text framer-styles-preset-1y9oj5s">Consistent Experience at Scale</h3>
+              <p class="framer-text framer-styles-preset-12vxr8v">As your startup grows, consistency becomes key.
+                Automation ensures that every new user gets a welcome email, every lead is tracked, and every client
+                gets a project update—no matter how busy you get. It standardizes your brand experience without extra
+                hiring.</p>
+              <h3 class="framer-text framer-styles-preset-1y9oj5s">Growth Without Burnout</h3>
+              <p class="framer-text framer-styles-preset-12vxr8v">Automation isn’t about replacing people—it’s about
+                protecting them. By offloading repetitive or low-leverage work, your team stays focused, energized,
+                and creative. The smartest startups today don’t just grow fast—they scale with systems that support
+                long-term momentum.</p>
             </div>
           </div>
         </div>
       </section>
-      <div class="framer-1btqfcv-container"><!--$-->
+      <div class="framer-1p6ua28-container"><!--$-->
         <div style="position:absolute;inset:0;overflow:hidden">
           <div
             style="opacity:1;position:absolute;inset:0;z-index:1;mask-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 12.5%, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0) 37.5%);-webkit-mask-image:linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 12.5%, rgba(0, 0, 0, 1) 25%, rgba(0, 0, 0, 0) 37.5%);border-radius:0px;pointer-events:none;backdrop-filter:blur(0.0546875px)">
@@ -5054,7 +5334,7 @@
                             data-framer-background-image-wrapper="true"><img decoding="async" width="1556" height="1574"
                               sizes="(min-width: 1200px) 64px, (min-width: 810px) and (max-width: 1199.98px) 46px, (max-width: 809.98px) 30px"
                               srcset="https://framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo.png?scale-down-to=1024&amp;width=1556&amp;height=1574 1012w,https://framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo.png?width=1556&amp;height=1574 1556w"
-                              src="../framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo1040.png?width=1556&amp;height=1574"
+                              src="../../framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo1040.png?width=1556&amp;height=1574"
                               alt="logo"
                               style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:contain"
                               data-framer-original-sizes="64px"></div>
@@ -5117,7 +5397,7 @@
                 style="will-change:transform;opacity:0.001;transform:scale(0.5)"><!--$-->
                 <div class="framer-e5wkiq-container"><!--$--><a
                     class="framer-k3vEy framer-RufVw framer-14hz3dz framer-v-14hz3dz framer-1u44o2m" data-border="true"
-                    data-framer-name="Primary" href="contact.html#contact" tabindex="0"
+                    data-framer-name="Primary" href="../contact.html#contact" tabindex="0"
                     style="--border-bottom-width:1px;--border-color:var(--token-2cbe7008-18c0-47fc-bf65-bc3b562c3ea6, rgba(184, 184, 255, 0.4));--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;background:radial-gradient(100% 150% at 50% 50%, var(--token-98508381-6582-4601-91b5-f46d5a54e333, rgb(1, 1, 13)) 0%, var(--token-35b68d38-6de2-4871-b185-2a179c2ef44b, rgb(24, 24, 37)) 100%);box-shadow:inset 0px 0px 12px 0px rgba(105, 105, 150, 0.4)"><svg
                       class="framer-CpFJO framer-ids2jz" role="presentation" viewBox="0 0 24 24"
                       style="--1m6trwb:0;--21h8s6:var(--token-c973949c-743a-4edd-981a-47999a6ea585, rgb(240, 240, 255));--pgex8v:1.5;transform:none">
@@ -5173,37 +5453,37 @@
                 <div class="framer-1gvwgy1" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="index.html#services">Services</a><!--/$--></p>
+                      href="../index.html#services">Services</a><!--/$--></p>
                 </div>
                 <div class="framer-v8svlf" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="contact.html">Contact</a><!--/$--></p>
+                      href="../contact.html">Contact</a><!--/$--></p>
                 </div>
                 <div class="framer-nkvupf" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="/">Blogs</a><!--/$--></p>
+                      href="../blog.html">Blogs</a><!--/$--></p>
                 </div>
                 <div class="framer-5xz5vu" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="about.html">About</a><!--/$--></p>
+                      href="../about.html">About</a><!--/$--></p>
                 </div>
                 <div class="framer-oxh0lb" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
-                      class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9" href="privacy.html"
-                      data-framer-page-link-current="true">Privacy</a><!--/$--></p>
+                      class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
+                      href="../privacy.html">Privacy</a><!--/$--></p>
                 </div>
                 <div class="framer-don7gx" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="terms.html">Terms</a><!--/$--></p>
+                      href="../terms.html">Terms</a><!--/$--></p>
                 </div>
                 <div class="framer-mnt679" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="coming-soon.html">Coming Soon</a><!--/$--></p>
+                      href="../coming-soon.html">Coming Soon</a><!--/$--></p>
                 </div>
               </div>
             </div>
@@ -5408,7 +5688,7 @@
                             data-framer-background-image-wrapper="true"><img decoding="async" width="1556" height="1574"
                               sizes="(min-width: 1200px) 64px, (min-width: 810px) and (max-width: 1199.98px) 46px, (max-width: 809.98px) 30px"
                               srcset="https://framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo.png?scale-down-to=1024&amp;width=1556&amp;height=1574 1012w,https://framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo.png?width=1556&amp;height=1574 1556w"
-                              src="../framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo1040.png?width=1556&amp;height=1574"
+                              src="../../framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo1040.png?width=1556&amp;height=1574"
                               alt="logo"
                               style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:contain"
                               data-framer-original-sizes="46px"></div>
@@ -5471,7 +5751,7 @@
                 style="will-change:transform;opacity:0.001;transform:scale(0.5)"><!--$-->
                 <div class="framer-e5wkiq-container"><!--$--><a
                     class="framer-k3vEy framer-RufVw framer-14hz3dz framer-v-14hz3dz framer-1u44o2m" data-border="true"
-                    data-framer-name="Primary" href="contact.html#contact" tabindex="0"
+                    data-framer-name="Primary" href="../contact.html#contact" tabindex="0"
                     style="--border-bottom-width:1px;--border-color:var(--token-2cbe7008-18c0-47fc-bf65-bc3b562c3ea6, rgba(184, 184, 255, 0.4));--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;background:radial-gradient(100% 150% at 50% 50%, var(--token-98508381-6582-4601-91b5-f46d5a54e333, rgb(1, 1, 13)) 0%, var(--token-35b68d38-6de2-4871-b185-2a179c2ef44b, rgb(24, 24, 37)) 100%);box-shadow:inset 0px 0px 12px 0px rgba(105, 105, 150, 0.4)"><svg
                       class="framer-CpFJO framer-ids2jz" role="presentation" viewBox="0 0 24 24"
                       style="--1m6trwb:0;--21h8s6:var(--token-c973949c-743a-4edd-981a-47999a6ea585, rgb(240, 240, 255));--pgex8v:1.5;transform:none">
@@ -5527,37 +5807,37 @@
                 <div class="framer-1gvwgy1" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="index.html#services">Services</a><!--/$--></p>
+                      href="../index.html#services">Services</a><!--/$--></p>
                 </div>
                 <div class="framer-v8svlf" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="contact.html">Contact</a><!--/$--></p>
+                      href="../contact.html">Contact</a><!--/$--></p>
                 </div>
                 <div class="framer-nkvupf" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="#">Blogs</a><!--/$--></p>
+                      href="../blog.html">Blogs</a><!--/$--></p>
                 </div>
                 <div class="framer-5xz5vu" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="about.html">About</a><!--/$--></p>
+                      href="../about.html">About</a><!--/$--></p>
                 </div>
                 <div class="framer-oxh0lb" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
-                      class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9" href="privacy.html"
-                      data-framer-page-link-current="true">Privacy</a><!--/$--></p>
+                      class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
+                      href="../privacy.html">Privacy</a><!--/$--></p>
                 </div>
                 <div class="framer-don7gx" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="terms.html">Terms</a><!--/$--></p>
+                      href="../terms.html">Terms</a><!--/$--></p>
                 </div>
                 <div class="framer-mnt679" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="coming-soon.html">Coming Soon</a><!--/$--></p>
+                      href="../coming-soon.html">Coming Soon</a><!--/$--></p>
                 </div>
               </div>
             </div>
@@ -5762,7 +6042,7 @@
                             data-framer-background-image-wrapper="true"><img decoding="async" width="1556" height="1574"
                               sizes="(min-width: 1200px) 64px, (min-width: 810px) and (max-width: 1199.98px) 46px, (max-width: 809.98px) 30px"
                               srcset="https://framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo.png?scale-down-to=1024&amp;width=1556&amp;height=1574 1012w,https://framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo.png?width=1556&amp;height=1574 1556w"
-                              src="../framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo1040.png?width=1556&amp;height=1574"
+                              src="../../framerusercontent.com/images/R2qPxfvK6uEbc8DMtGWGVJIqjvo1040.png?width=1556&amp;height=1574"
                               alt="logo"
                               style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:contain"
                               data-framer-original-sizes="30px"></div>
@@ -5825,7 +6105,7 @@
                 style="will-change:transform;opacity:0.001;transform:scale(0.5)"><!--$-->
                 <div class="framer-e5wkiq-container"><!--$--><a
                     class="framer-k3vEy framer-RufVw framer-14hz3dz framer-v-1fnauid framer-1u44o2m" data-border="true"
-                    data-framer-name="Mobile" href="contact.html#contact"
+                    data-framer-name="Mobile" href="../contact.html#contact"
                     style="--border-bottom-width:1px;--border-color:var(--token-2cbe7008-18c0-47fc-bf65-bc3b562c3ea6, rgba(184, 184, 255, 0.4));--border-left-width:1px;--border-right-width:1px;--border-style:solid;--border-top-width:1px;background:radial-gradient(100% 150% at 50% 50%, var(--token-98508381-6582-4601-91b5-f46d5a54e333, rgb(1, 1, 13)) 0%, var(--token-35b68d38-6de2-4871-b185-2a179c2ef44b, rgb(24, 24, 37)) 100%);box-shadow:inset 0px 0px 12px 0px rgba(105, 105, 150, 0.4)"><svg
                       class="framer-CpFJO framer-ids2jz" role="presentation" viewBox="0 0 24 24"
                       style="--1m6trwb:0;--21h8s6:var(--token-c973949c-743a-4edd-981a-47999a6ea585, rgb(240, 240, 255));--pgex8v:1.5;transform:none">
@@ -5849,37 +6129,37 @@
                 <div class="framer-1gvwgy1" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="index.html#services">Services</a><!--/$--></p>
+                      href="../index.html#services">Services</a><!--/$--></p>
                 </div>
                 <div class="framer-v8svlf" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="contact.html">Contact</a><!--/$--></p>
+                      href="../contact.html">Contact</a><!--/$--></p>
                 </div>
                 <div class="framer-nkvupf" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="#">Blogs</a><!--/$--></p>
+                      href="../blog.html">Blogs</a><!--/$--></p>
                 </div>
                 <div class="framer-5xz5vu" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="about.html">About</a><!--/$--></p>
+                      href="../about.html">About</a><!--/$--></p>
                 </div>
                 <div class="framer-oxh0lb" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
-                      class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9" href="privacy.html"
-                      data-framer-page-link-current="true">Privacy</a><!--/$--></p>
+                      class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
+                      href="../privacy.html">Privacy</a><!--/$--></p>
                 </div>
                 <div class="framer-don7gx" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="terms.html">Terms</a><!--/$--></p>
+                      href="../terms.html">Terms</a><!--/$--></p>
                 </div>
                 <div class="framer-mnt679" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="coming-soon.html">Coming Soon</a><!--/$--></p>
+                      href="../coming-soon.html">Coming Soon</a><!--/$--></p>
                 </div>
               </div>
             </div>
@@ -5912,8 +6192,8 @@
 <script>(() => { function u() { function n(t, e, i) { let r = document.createElement("a"); r.href = t, r.target = i, r.rel = e, document.body.appendChild(r), r.click(), r.remove() } function o(t) { if (this.dataset.hydrated) { this.removeEventListener("click", o); return } t.preventDefault(), t.stopPropagation(); let e = this.getAttribute("href"); if (!e) return; if (/Mac|iPod|iPhone|iPad/u.test(navigator.userAgent) ? t.metaKey : t.ctrlKey) return n(e, "", "_blank"); let r = this.getAttribute("rel") ?? "", c = this.getAttribute("target") ?? ""; n(e, r, c) } function a(t) { if (this.dataset.hydrated) { this.removeEventListener("auxclick", o); return } t.preventDefault(), t.stopPropagation(); let e = this.getAttribute("href"); e && n(e, "", "_blank") } function s(t) { if (this.dataset.hydrated) { this.removeEventListener("keydown", s); return } if (t.key !== "Enter") return; t.preventDefault(), t.stopPropagation(); let e = this.getAttribute("href"); if (!e) return; let i = this.getAttribute("rel") ?? "", r = this.getAttribute("target") ?? ""; n(e, i, r) } document.querySelectorAll("[data-nested-link]").forEach(t => { t instanceof HTMLElement && (t.addEventListener("click", o), t.addEventListener("auxclick", a), t.addEventListener("keydown", s)) }) } return u })()()</script>
 <script>(() => { function i() { for (let e of document.querySelectorAll("[data-framer-original-sizes]")) { let t = e.getAttribute("data-framer-original-sizes"); t === "" ? e.removeAttribute("sizes") : e.setAttribute("sizes", t), e.removeAttribute("data-framer-original-sizes") } } function a() { window.__framer_onRewriteBreakpoints = i } return a })()()</script>
 <script>!function () {
-    var w = "framer_variant"; function u(a, r) { let n = r.indexOf("#"), t = n === -1 ? r : r.substring(0, n), i = n === -1 ? "" : r.substring(n), e = t.indexOf("?"), h = e === -1 ? t : t.substring(0, e), d = e === -1 ? "" : t.substring(e), s = new URLSearchParams(d), g = new URLSearchParams(a); for (let [o, l] of g) s.has(o) || o !== w && s.append(o, l); let c = s.toString(); return c === "" ? t + i : h + "?" + c + i } var p = 'div#main a[href^="#"],div#main a[href^="/"],div#main a[href^="."]', f = "div#main a[data-framer-preserve-params]", m, S = (m = document.currentScript) == null ? void 0 : m.hasAttribute("data-preserve-internal-params"); if (window.location.search && !/bot|-google|google-|yandex|ia_archiver|crawl|spider/iu.test(navigator.userAgent)) { let a = document.querySelectorAll(S ? `${p},${f}` : f); for (let r of a) { let n = u(window.location.search, r.href); r.setAttribute("href", n) } }
-  }()</script>
+                    var w = "framer_variant"; function u(a, r) { let n = r.indexOf("#"), t = n === -1 ? r : r.substring(0, n), i = n === -1 ? "" : r.substring(n), e = t.indexOf("?"), h = e === -1 ? t : t.substring(0, e), d = e === -1 ? "" : t.substring(e), s = new URLSearchParams(d), g = new URLSearchParams(a); for (let [o, l] of g) s.has(o) || o !== w && s.append(o, l); let c = s.toString(); return c === "" ? t + i : h + "?" + c + i } var p = 'div#main a[href^="#"],div#main a[href^="/"],div#main a[href^="."]', f = "div#main a[data-framer-preserve-params]", m, S = (m = document.currentScript) == null ? void 0 : m.hasAttribute("data-preserve-internal-params"); if (window.location.search && !/bot|-google|google-|yandex|ia_archiver|crawl|spider/iu.test(navigator.userAgent)) { let a = document.querySelectorAll(S ? `${p},${f}` : f); for (let r of a) { let n = u(window.location.search, r.href); r.setAttribute("href", n) } }
+                  }()</script>
 
 <div id="__framer-badge-container"><!--$--><!--$--><!--$--><a
     class="framer-6jWyo framer-n0ccwk framer-v-n0ccwk framer-bmpgw8 __framer-badge" data-framer-appear-id="n0ccwk"
@@ -5945,9 +6225,10 @@
 <script type="framer/appear"
   id="__framer__appearAnimationsContent">{"48ze2g":{"default":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"x":0,"y":0},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"damping":50,"delay":0.5,"mass":1,"stiffness":125,"type":"spring"},"x":0,"y":0}},"sabeit":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"x":0,"y":0},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"damping":50,"delay":0.5,"mass":1,"stiffness":125,"type":"spring"},"x":0,"y":0}},"d7v0xy":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"x":0,"y":0},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"damping":50,"delay":0.5,"mass":1,"stiffness":125,"type":"spring"},"x":0,"y":0}}},"neq9b0":{"default":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":0.7,"skewX":0,"skewY":0,"x":0,"y":0},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"delay":0.3,"duration":1.2,"ease":[0.67,0.33,0.23,1.02],"type":"tween"},"x":0,"y":0}},"sabeit":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":0.7,"skewX":0,"skewY":0,"x":0,"y":0},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"delay":0.3,"duration":1.2,"ease":[0.67,0.33,0.23,1.02],"type":"tween"},"x":0,"y":0}},"d7v0xy":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":0.7,"skewX":0,"skewY":0,"x":0,"y":0},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"delay":0.3,"duration":1.2,"ease":[0.67,0.33,0.23,1.02],"type":"tween"},"x":0,"y":0}}},"xr6h24":{"default":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":0.5,"skewX":0,"skewY":0,"x":0,"y":0},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"delay":0.2,"duration":1.4,"ease":[0.53,0.27,0.4,1],"type":"tween"},"x":0,"y":0}},"sabeit":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":0.5,"skewX":0,"skewY":0,"x":0,"y":0},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"delay":0.2,"duration":1.4,"ease":[0.53,0.27,0.4,1],"type":"tween"},"x":0,"y":0}},"d7v0xy":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":0.5,"skewX":0,"skewY":0,"x":0,"y":0},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"delay":0.2,"duration":1.4,"ease":[0.53,0.27,0.4,1],"type":"tween"},"x":0,"y":0}}}}</script>
 <script type="framer/appear"
-  id="__framer__breakpoints">[{"hash":"1ond1c2","mediaQuery":"(min-width: 1200px)"},{"hash":"qxoahw","mediaQuery":"(min-width: 810px) and (max-width: 1199.98px)"},{"hash":"1njrwkf","mediaQuery":"(max-width: 809.98px)"},{"hash":"8lqcsx","mediaQuery":"(min-width: 1200px)"},{"hash":"sabeit","mediaQuery":"(min-width: 810px) and (max-width: 1199.98px)"},{"hash":"d7v0xy","mediaQuery":"(max-width: 809.98px)"}]</script>
+  id="__framer__breakpoints">[{"hash":"crarop","mediaQuery":"(min-width: 1200px)"},{"hash":"cj397y","mediaQuery":"(min-width: 810px) and (max-width: 1199.98px)"},{"hash":"12psxxm","mediaQuery":"(max-width: 809.98px)"},{"hash":"8lqcsx","mediaQuery":"(min-width: 1200px)"},{"hash":"sabeit","mediaQuery":"(min-width: 810px) and (max-width: 1199.98px)"},{"hash":"d7v0xy","mediaQuery":"(max-width: 809.98px)"}]</script>
 <script
   data-framer-appear-animation="reduce">(() => { function c(i, o, m) { if (window.__framer_disable_appear_effects_optimization__ || typeof animator > "u") return; let e = { detail: { bg: document.hidden } }; requestAnimationFrame(() => { let a = "framer-appear-start"; performance.mark(a, e), animator.animateAppearEffects(JSON.parse(window.__framer__appearAnimationsContent.text), (s, p, d) => { let t = document.querySelector(s); if (t) for (let [r, f] of Object.entries(p)) animator.startOptimizedAppearAnimation(t, r, f, d[r]) }, i, o, m && window.matchMedia("(prefers-reduced-motion:reduce)").matches === !0, animator.getActiveVariantHash(JSON.parse(window.__framer__breakpoints.text))); let n = "framer-appear-end"; performance.mark(n, e), performance.measure("framer-appear", { start: a, end: n, detail: e.detail }) }) } return c })()("data-framer-appear-id", "__Appear_Animation_Transform__", true)</script>
+<script>(() => { function d(e) { let t = Date.prototype.toLocaleString, o = Date.prototype.toLocaleDateString; t && (Date.prototype.toLocaleString = function (r, n) { let i = s(this, r, n); return u(e.current.Date.toLocaleString, i, () => t.call(this, r, n)) }), o && (Date.prototype.toLocaleDateString = function (r, n) { let i = s(this, r, n); return u(e.current.Date.toLocaleDateString, i, () => o.call(this, r, n)) }); let a = Object.getOwnPropertyDescriptors(Intl.DateTimeFormat.prototype).format.get, c = Intl.DateTimeFormat.prototype.formatRange, b = Intl.DateTimeFormat.prototype.formatToParts, D = Intl.DateTimeFormat.prototype.formatRangeToParts; a && Object.defineProperty(Intl.DateTimeFormat.prototype, "format", { get() { function m(r) { let n = p(this), i = s(r, n); return u(e.current.DateTimeFormat.format, i, () => a.call(this)(r)) } return m.bind(this) } }), c && (Intl.DateTimeFormat.prototype.formatRange = function (r, n) { let i = p(this), l = s(r, n, i); return u(e.current.DateTimeFormat.formatRange, l, () => c.call(this, r, n)) }), b && (Intl.DateTimeFormat.prototype.formatToParts = function (r) { let n = p(this), i = s(r, n); return u(e.current.DateTimeFormat.formatToParts, i, () => b.call(this, r)).map(g) }), D && (Intl.DateTimeFormat.prototype.formatRangeToParts = function (r, n) { let i = p(this), l = s(r, n, i); return u(e.current.DateTimeFormat.formatRangeToParts, l, () => D.call(this, r, n)).map(g) }); let y = Number.prototype.toLocaleString; y && (Number.prototype.toLocaleString = function (r, n) { let i = s(this, r, n); return u(e.current.Number.toLocaleString, i, () => y.call(this, r, n)) }); let h = Object.getOwnPropertyDescriptors(Intl.NumberFormat.prototype).format.get, F = Intl.NumberFormat.prototype.formatRange, T = Intl.NumberFormat.prototype.formatToParts, I = Intl.NumberFormat.prototype.formatRangeToParts; h && Object.defineProperty(Intl.NumberFormat.prototype, "format", { get() { function m(r) { let n = f(this), i = s(r, n); return u(e.current.NumberFormat.format, i, () => h.call(this)(r)) } return m.bind(this) } }), F && (Intl.NumberFormat.prototype.formatRange = function (r, n) { let i = f(this), l = s(r, n, i); return u(e.current.NumberFormat.formatRange, l, () => F.call(this, r, n)) }), T && (Intl.NumberFormat.prototype.formatToParts = function (r) { let n = f(this), i = s(r, n); return u(e.current.NumberFormat.formatToParts, i, () => T.call(this, r)).map(g) }), I && (Intl.NumberFormat.prototype.formatRangeToParts = function (r, n) { let i = f(this), l = s(r, n, i); return u(e.current.NumberFormat.formatRangeToParts, l, () => I.call(this, r, n)).map(g) }) } function P(e, t) { return typeof t == "bigint" ? `${t}n` : t instanceof Date ? t.getTime() : t } function s(...e) { let t = JSON.stringify(e, P), o = 0; for (let a = 0; a < t.length; a++)o += t.charCodeAt(a), o += o << 10, o ^= o >> 6; return o += o << 3, o ^= o >> 11, o += o << 15, o >>> 0 } function u(e, t, o) { let a = e[t]; if (typeof a < "u") return a; let c = o(); return e[t] = c, c } function g(e) { return { ...e } } function p(e) { let t = e.resolvedOptions(), o = { locale: t.locale, calendar: t.calendar, numberingSystem: t.numberingSystem, timeZone: t.timeZone, hour12: t.hour12, weekday: t.weekday, era: t.era, year: t.year, month: t.month, day: t.day, hour: t.hour, minute: t.minute, second: t.second, timeZoneName: t.timeZoneName }; for (let a in t) a in o || (o[a] = t[a]); return o } function f(e) { let t = e.resolvedOptions(), o = { locale: t.locale, numberingSystem: t.numberingSystem, style: t.style, currency: t.currency, currencyDisplay: t.currencyDisplay, currencySign: t.currencySign, unit: t.unit, unitDisplay: t.unitDisplay, minimumIntegerDigits: t.minimumIntegerDigits, minimumFractionDigits: t.minimumFractionDigits, maximumFractionDigits: t.maximumFractionDigits, minimumSignificantDigits: t.minimumSignificantDigits, maximumSignificantDigits: t.maximumSignificantDigits, useGrouping: t.useGrouping === !0 ? "auto" : t.useGrouping, notation: t.notation, compactDisplay: t.compactDisplay, signDisplay: t.signDisplay, roundingIncrement: t.roundingIncrement ?? 1, roundingMode: t.roundingMode ?? "halfExpand", roundingPriority: t.roundingPriority ?? "auto", trailingZeroDisplay: t.trailingZeroDisplay ?? "auto" }; for (let a in t) a in o || (o[a] = t[a]); return o } return d })()({ current: { "Date": { "toLocaleString": { "2683986447": "January 6, 2025" }, "toLocaleDateString": {} }, "DateTimeFormat": { "format": {}, "formatRange": {}, "formatToParts": {}, "formatRangeToParts": {} }, "Number": { "toLocaleString": {} }, "NumberFormat": { "format": {}, "formatRange": {}, "formatToParts": {}, "formatRangeToParts": {} } } })</script>
 <link rel="modulepreload" fetchpriority="low"
   href="https://framerusercontent.com/sites/4wsHBeDhaaAycunGlTX3Zd/react.DVx2Iloi.mjs">
 <link rel="modulepreload" fetchpriority="low"
@@ -5977,13 +6258,19 @@
 <link rel="modulepreload" fetchpriority="low"
   href="https://framerusercontent.com/sites/4wsHBeDhaaAycunGlTX3Zd/mtLLrm6SG.DlFF13i3.mjs">
 <link rel="modulepreload" fetchpriority="low"
-  href="https://framerusercontent.com/sites/4wsHBeDhaaAycunGlTX3Zd/YkvFPA5vL1sn8oxAFk4nWSp-lBi3hmzykAwND0wzeBg.DcbdDVai.mjs">
+  href="https://framerusercontent.com/sites/4wsHBeDhaaAycunGlTX3Zd/41oCaGhvOfgEoQi0_ER05lznmiRJWYQNkOjUcwthlW4.DJctanhH.mjs">
 <link rel="modulepreload" fetchpriority="low"
-  href="https://framerusercontent.com/sites/4wsHBeDhaaAycunGlTX3Zd/fe3IY8hLH.D4CKPaAA.mjs">
+  href="https://framerusercontent.com/sites/4wsHBeDhaaAycunGlTX3Zd/AWclSmgmz.BcvXonpM.mjs">
+<link rel="modulepreload" fetchpriority="low"
+  href="https://framerusercontent.com/sites/4wsHBeDhaaAycunGlTX3Zd/Htze1ckXM.XPTCIzpb.mjs">
+<link rel="modulepreload" fetchpriority="low"
+  href="https://framerusercontent.com/sites/4wsHBeDhaaAycunGlTX3Zd/XcIlicl6R.XCHtAajj.mjs">
+<link rel="modulepreload" fetchpriority="low"
+  href="https://framerusercontent.com/sites/4wsHBeDhaaAycunGlTX3Zd/ICxtbG_1l.Da_jUmAc.mjs">
+<link rel="modulepreload" fetchpriority="low"
+  href="https://framerusercontent.com/sites/4wsHBeDhaaAycunGlTX3Zd/drHne6Oxv.BnxdSnTG.mjs">
 <link rel="modulepreload" fetchpriority="low"
   href="https://framerusercontent.com/sites/4wsHBeDhaaAycunGlTX3Zd/BlurGradient_Prod.ONP6zYxq.mjs">
-<link rel="modulepreload" fetchpriority="low"
-  href="https://framerusercontent.com/sites/4wsHBeDhaaAycunGlTX3Zd/F1pyBDiBw.DRaYD7iy.mjs">
 <link rel="modulepreload" fetchpriority="low"
   href="https://framerusercontent.com/sites/4wsHBeDhaaAycunGlTX3Zd/script_main.B_Y6dDWH.mjs">
 <script type="module" async data-framer-bundle="main" fetchpriority="low"
@@ -6048,56 +6335,29 @@
       stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)"
       stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(3.75 5.25)" width="6.75px" />
   </svg>
-  <svg display="block" role="presentation" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    <path d="M 3.75 5.25 L 0.75 5.25 C 0.336 5.25 0 4.914 0 4.5 L 0 0.75 C 0 0.336 0.336 0 0.75 0 L 3.75 0 Z"
-      fill-opacity="var(--1m6trwb, 0)" fill="var(--21h8s6, rgb(0, 0, 0))" height="5.25px" id="VnWQOxXTR"
-      transform="translate(0.75 14.25)" width="3.75px" />
-    <path d="M 3.75 5.25 L 0.75 5.25 C 0.336 5.25 0 4.914 0 4.5 L 0 0.75 C 0 0.336 0.336 0 0.75 0 L 3.75 0"
-      fill="transparent" height="5.25px" id="XC3M1amn4" stroke-dasharray="" stroke-linecap="round"
-      stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))"
-      transform="translate(0.75 14.25)" width="3.75px" />
-    <path
-      d="M 6 3.75 L 9 3.75 L 15.281 2.305 C 15.749 2.177 16.25 2.274 16.637 2.568 C 17.023 2.863 17.249 3.32 17.25 3.805 L 17.25 3.805 C 17.25 4.395 16.917 4.934 16.389 5.198 L 12.75 6.75 L 6.75 8.25 L 0 8.25 L 0 3 L 2.344 0.656 C 2.767 0.235 3.34 -0.001 3.938 0 L 8.625 0 C 9.661 0 10.5 0.839 10.5 1.875 L 10.5 1.875 C 10.5 2.911 9.661 3.75 8.625 3.75 Z"
-      fill="transparent" height="8.25000677472812px" id="rfbuxUHwX" stroke-dasharray="" stroke-linecap="round"
-      stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))"
-      transform="translate(4.5 11.25)" width="17.250000132121865px" />
-    <path d="M 0 0 L 0 7.5" fill="transparent" height="7.5px" id="gT7vRuVEW" stroke-dasharray="" stroke-linecap="round"
-      stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)" stroke="var(--21h8s6, rgb(0, 0, 0))"
-      transform="translate(18 2.25)" width="1px" />
-    <path d="M 6 0 L 3 3 L 0 0" fill="transparent" height="3px" id="PrbRSqGTj" stroke-dasharray=""
-      stroke-linecap="round" stroke-linejoin="round" stroke-width="var(--pgex8v, 1.5)"
-      stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(15 6.75)" width="6px" />
-  </svg>
 </div>
-<!-- Neutralize Framer 'Get Template' promo: remove DOM nodes and prevent re-creation -->
-<script type="text/javascript">
-    (function () {
-      function removePromo(el) {
-        try { if (!el) return; if (el.classList && el.classList.contains('framer-5grv2t-container')) el.remove(); } catch (e) { }
-      }
-      try { document.querySelectorAll('.framer-5grv2t-container').forEach(removePromo); } catch (e) { }
-      try {
-        const obs = new MutationObserver(mutations => {
-          for (const mutation of mutations) {
-            for (const node of mutation.addedNodes) {
-              if (node && node.nodeType === 1) {
-                try { if (node.classList && node.classList.contains('framer-5grv2t-container')) node.remove(); } catch (e) { }
-                try { node.querySelectorAll && node.querySelectorAll('.framer-5grv2t-container').forEach(removePromo); } catch (e) { }
-              }
-            }
-          }
-        });
-        if (document.body) obs.observe(document.body, { childList: true, subtree: true });
-        else document.addEventListener('DOMContentLoaded', () => obs.observe(document.body, { childList: true, subtree: true }));
-      } catch (e) { }
-    })();
-</script>
-
 <!-- Start of bodyEnd -->
+
+<script>
+                    (function () {
+                      var logoSrc = '/images/fairgo-logo.png';
+                      function replaceLogos() {
+                        document.querySelectorAll('[data-framer-name="logo"], [data-framer-name="Logo"]').forEach(function (el) {
+                          var wrapper = el.querySelector('[data-framer-background-image-wrapper]');
+                          var img = document.createElement('img');
+                          img.src = logoSrc; img.alt = 'FairGo';
+                          img.style.display = 'block'; img.style.width = '100%'; img.style.height = '100%'; img.style.objectFit = 'contain';
+                          if (wrapper) { wrapper.innerHTML = ''; wrapper.appendChild(img); } else { el.innerHTML = ''; el.appendChild(img); }
+                        });
+                        document.querySelectorAll('img[alt="logo"]').forEach(function (i) { i.src = logoSrc; i.removeAttribute('srcset'); i.removeAttribute('data-framer-original-sizes'); });
+                      }
+                      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', replaceLogos); } else { replaceLogos(); }
+                    })();
+</script>
 
 <!-- End of bodyEnd -->
 </body>
 
-<!-- Mirrored from FAIRGO.framer.website/privacy by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Oct 2025 10:16:48 GMT -->
+<!-- Mirrored from FAIRGO.framer.website/blog/scaling-smarter-how-automation-helps-startups by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Oct 2025 10:16:49 GMT -->
 
 </html>

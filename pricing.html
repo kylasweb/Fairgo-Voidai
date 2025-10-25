@@ -67,6 +67,7 @@
       });
     });
   </script>
+
   <!-- Start of headStart -->
 
   <!-- End of headStart -->
@@ -93,6 +94,13 @@
   <meta name="twitter:description"
     content="FAIRGO is a premium Framer template built to elevate your AI automation agency. Designed with a sleek, modern aesthetic.">
   <meta name="twitter:image" content="https://framerusercontent.com/images/viudqeCqJrWIpO5l4ssopq12ICU.png">
+
+  <!-- Hide Framer 'Get Template' promotional component inserted by exported JS -->
+  <style>
+    .framer-5grv2t-container {
+      display: none !important;
+    }
+  </style>
 
   <style data-framer-font-css>
     /* cyrillic */
@@ -6625,8 +6633,7 @@
               </div><!--$-->
               <div class="framer-kfr470-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="blog.html#blog" tabindex="0"
-                  style="opacity:0.7">
+                  data-framer-name="primary" data-highlight="true" href="#" tabindex="0" style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Blog</p>
                   </div>
@@ -6743,8 +6750,7 @@
               </div><!--$-->
               <div class="framer-kfr470-container"><!--$--><a
                   class="framer-0ZBvG framer-RufVw framer-p5j5qq framer-v-p5j5qq framer-om04cv"
-                  data-framer-name="primary" data-highlight="true" href="blog.html#blog" tabindex="0"
-                  style="opacity:0.7">
+                  data-framer-name="primary" data-highlight="true" href="#" tabindex="0" style="opacity:0.7">
                   <div class="framer-1l9jozo" data-framer-component-type="RichTextContainer" style="transform:none">
                     <p class="framer-text framer-styles-preset-1kvyxmc" data-styles-preset="n7RLEGRKm">Blog</p>
                   </div>
@@ -9902,7 +9908,7 @@
                 <div class="framer-nkvupf" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="blog.html">Blogs</a><!--/$--></p>
+                      href="#">Blogs</a><!--/$--></p>
                 </div>
                 <div class="framer-5xz5vu" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
@@ -10224,7 +10230,7 @@
                 <div class="framer-nkvupf" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
                       class="framer-text framer-styles-preset-z4q089" data-styles-preset="o77HbpIl9"
-                      href="blog.html">Blogs</a><!--/$--></p>
+                      href="#">Blogs</a><!--/$--></p>
                 </div>
                 <div class="framer-5xz5vu" data-framer-component-type="RichTextContainer" style="transform:none">
                   <p class="framer-text framer-styles-preset-1khckfh" data-styles-preset="cH8AiB6P_"><!--$--><a
@@ -10439,6 +10445,30 @@
       stroke="var(--21h8s6, rgb(0, 0, 0))" transform="translate(15 6.75)" width="6px" />
   </svg>
 </div>
+<!-- Neutralize Framer 'Get Template' promo: remove DOM nodes and prevent re-creation -->
+<script type="text/javascript">
+    (function () {
+      function removePromo(el) {
+        try { if (!el) return; if (el.classList && el.classList.contains('framer-5grv2t-container')) el.remove(); } catch (e) { }
+      }
+      try { document.querySelectorAll('.framer-5grv2t-container').forEach(removePromo); } catch (e) { }
+      try {
+        const obs = new MutationObserver(mutations => {
+          for (const mutation of mutations) {
+            for (const node of mutation.addedNodes) {
+              if (node && node.nodeType === 1) {
+                try { if (node.classList && node.classList.contains('framer-5grv2t-container')) node.remove(); } catch (e) { }
+                try { node.querySelectorAll && node.querySelectorAll('.framer-5grv2t-container').forEach(removePromo); } catch (e) { }
+              }
+            }
+          }
+        });
+        if (document.body) obs.observe(document.body, { childList: true, subtree: true });
+        else document.addEventListener('DOMContentLoaded', () => obs.observe(document.body, { childList: true, subtree: true }));
+      } catch (e) { }
+    })();
+</script>
+
 <!-- Start of bodyEnd -->
 
 <!-- End of bodyEnd -->
